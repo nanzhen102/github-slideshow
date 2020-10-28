@@ -82,7 +82,6 @@ A word or line beginning with **\#** causes that word and all remaining characte
 * https://bash.cyberciti.biz/guide/Main\_Page  **👈  ✨✨**  
 * https://linuxcommand.org/lc3\_writing\_shell\_scripts.php **👈  ✨✨** 
 * https://www.tutorialspoint.com/unix/unix-using-variables.htm **👈  ✨✨**
-* \*\*\*\*
 
 
 
