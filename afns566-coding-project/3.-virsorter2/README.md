@@ -25,7 +25,7 @@ Follow the four steps below to install a development version.
 {% endtab %}
 {% endtabs %}
 
-#### 3.3 Test run 
+#### 3.3 Test run \(only one input file\)
 
 **Step 1.** Fetch testing data
 
@@ -45,15 +45,19 @@ virsorter run -w test.out -i test.fa -j 4
 ls test.out
 ```
 
-#### 3.4 Officially run
+#### 3.4 Officially run \(multiple input files\)
 
-**Step 1. Learn** [**4. SLURM**](4.-slurm.md)**.**
+**Step 1.** Learn Vim.
 
-**Step 2. Learn** [**1. Vim Text Editor 编辑器**](vim.md)
 
-**Step 3. Learn** [**3. For in Linux**](../../nanzhen_oct/3.-loops-for-while-and-until.md)\*\*\*\*
 
-Step 4. 
+**Step 2.** Learn for loop.
+
+
+
+**Step 3.** Learn Slurm.
+
+ 
 
 \*\*\*\*
 

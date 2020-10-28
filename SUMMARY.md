@@ -7,13 +7,13 @@
 * [1. Linux](afns566-coding-project/1.-linux.md)
 * [2. Conda](afns566-coding-project/2.-conda.md)
 * [3. VirSorter2](afns566-coding-project/3.-virsorter2/README.md)
-  * [3.1 Slurm](afns566-coding-project/3.-virsorter2/4.-slurm.md)
-  * [3.2 Vim Text Editor](afns566-coding-project/3.-virsorter2/vim.md)
+  * [3.1 Vim](afns566-coding-project/3.-virsorter2/vim.md)
+  * [3.2 for loop](afns566-coding-project/3.-virsorter2/3.-loops-for-while-and-until.md)
+  * [3.3 Slurm](afns566-coding-project/3.-virsorter2/4.-slurm.md)
 
 ## For nanzhen <a id="nanzhen_oct"></a>
 
 * [2. Shell脚本](nanzhen_oct/shell-jiao-ben.md)
-* [3. for loop](nanzhen_oct/3.-loops-for-while-and-until.md)
 * [9. Gitbook](nanzhen_oct/5.-gitbook.md)
 * [Virsorter2](nanzhen_oct/virsorter2.md)
 * [💪💪💪](nanzhen_oct/others.md)

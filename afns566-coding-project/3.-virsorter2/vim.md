@@ -1,46 +1,65 @@
-# 3.2 Vim Text Editor
+# 3.1 Vim
 
 #### 1.1 Introduction
 
-编写脚本文档
+Vim is a highly configurable text editor built to make creating and changing any kind of text very efficient.
 
-#### 1.2 进入vim编辑器
+#### 1.2 Get started with Vim
 
-**Step1.** 打开／新建（临时），Vim编辑器命令模式
+**Step1**. Create a .txt file.
 
 ```
 (base) [nanzhen@admin ~]$ vim practice_vim.txt
 ```
 
-**Step2.** Vim编辑器命令模式——输入模式（编辑）
+So, you open a console window.
 
-a 光标后面一位
+**Step2.** Get into the Insert Mode.
 
-i 光标当前位置
-
-o 光标的下面再创建一个空行
+Press the I key.
 
 {% hint style="info" %}
-a. 命令模式下，不可更改文档，但光标可以上下左右移动
+Three Vim modes are often used.
 
-b. 输入的字符添加在光标前
-
-c. 若要在原有文本内容的下面追加内容，在命令模式中敲击o键进入输入模式更会高效
+1. Normal mode. It's a default mode, used for navigation and simple editing.
+2. Insert mode. It's used for explicitly inserting and modifying text. **Press I or O or A key** to get into it. In the lower-left, you should see -- INSERT --. This means you are in Insert mode.
+3. Command line mode. It's used for operations like saving, exiting, etc. **Hit the Esc key** to get into it.
 {% endhint %}
 
-**Step3.** 停止输入模式（编辑），进入末行模式
+**Step3.** Make modifications in Vim.
 
-Esc
+Type any content you want.
 
-**Step4.** 末行模式，退出文件，返回Linux
+```text
+a
+bb
+ccc
+dddd
+```
 
-`:q!`
+**Step4.** Get into the command line mode.
 
-`:wq!`
+Hit the Esc key.
 
-**Step5.** 查看
+**Step5.** Close the console window.
 
-`cat <file_name>`
+`:q!`, forced to close the window and not save modifications.
+
+`:wq!`, forced to close the window and save modifications.
+
+**Step6.** Check modifications.
+
+Run `cat <file_name>`
+
+```text
+(base) [qnz@admin ~]$ vim practice_vim.txt
+(base) [qnz@admin ~]$ cat practice_vim.txt
+a
+bb
+ccc
+dddd
+(base) [qnz@admin ~]$ 
+```
 
 {% hint style="info" %}
 保存在哪里了？
@@ -52,9 +71,12 @@ Esc
 
 
 
-#### Refenrences
+#### References
 
-https://www.linuxprobe.com/chapter-04.html
+* https://opensource.com/article/19/3/getting-started-vim
+* https://www.linuxprobe.com/chapter-04.html
+
+
 
 
 
