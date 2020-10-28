@@ -1,8 +1,12 @@
 # Virsorter2
 
+
+
+以前的版本：
+
 Xudong Li:
 
-virsorter.lsf
+virsorter.lsf （Linux里后缀无所谓，不过bash还是常用.sh为后缀，方便自己识别）
 
 ```text
 for file in 6_BDME192013411-1a 9_BDME192013412-1a 10_BDME192013413-1a 11_BDME192013414-1a
@@ -11,5 +15,5 @@ nohup wrapper_phage_contigs_sorter_iPlant.pl -f /mnt/data/home/lxd/4_salt_metage
 done
 ```
 
-
+最新的版本看jiarong github，先下载，后面的步骤就很简单
 
