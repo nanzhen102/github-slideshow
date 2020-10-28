@@ -11,6 +11,7 @@
   * [3.2 Shell](afns566-coding-project/3.-virsorter2/shell-jiao-ben.md)
   * [3.3 For loop](afns566-coding-project/3.-virsorter2/3.-loops-for-while-and-until.md)
   * [3.4 Slurm](afns566-coding-project/3.-virsorter2/4.-slurm.md)
+* [4. CRT](afns566-coding-project/4.-crt.md)
 
 ## For nanzhen <a id="nanzhen_oct"></a>
 
