@@ -1,10 +1,10 @@
 # 3.1 Vim
 
-#### 1.1 Introduction
+#### 3.1.1 Introduction
 
 Vim is a highly configurable text editor built to make creating and changing any kind of text very efficient.
 
-#### 1.2 Get started with Vim
+#### 3.1.2 Get started with Vim
 
 **Step1**. Run `vim practice_vim.txt` to create a .txt file.
 
@@ -53,11 +53,11 @@ dddd
 保存在哪里了？
 {% endhint %}
 
-#### 1.3 Vim cheatsheet
+#### 3.1.3 Vim cheatsheet
 
 {% file src="../../.gitbook/assets/vim-cheatsheet.pdf" caption="Vim\_cheatsheet" %}
 
-#### 1.4 References
+#### 3.1.4 References
 
 * https://opensource.com/article/19/3/getting-started-vim
 * https://www.linuxprobe.com/chapter-04.html
