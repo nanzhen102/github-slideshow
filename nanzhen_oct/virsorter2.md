@@ -1,4 +1,4 @@
-# virsorter2
+# previous\_virsorter2
 
 
 
@@ -16,7 +16,7 @@ nohup wrapper_phage_contigs_sorter_iPlant.pl -f /mnt/data/home/lxd/4_salt_metage
 done
 ```
 
-最新的版本看jiarong github，先下载，后面的步骤就很简单
+最新的版本看jiarong github
 {% endhint %}
 
 
