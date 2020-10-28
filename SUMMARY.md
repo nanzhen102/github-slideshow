@@ -14,12 +14,8 @@
 
 ## For nanzhen <a id="nanzhen_oct"></a>
 
-* [9. Gitbook](nanzhen_oct/5.-gitbook.md)
-* [Virsorter2](nanzhen_oct/virsorter2.md)
+* [gitbook](nanzhen_oct/5.-gitbook.md)
+* [virsorter2](nanzhen_oct/virsorter2.md)
 * [💪💪💪](nanzhen_oct/others.md)
-* [Shell Script](nanzhen_oct/shell-script/README.md)
-  * [Shell](nanzhen_oct/shell-script/shell.md)
-  * [bash](nanzhen_oct/shell-script/bash.md)
-  * [Vim](nanzhen_oct/shell-script/vim.md)
-  * [For](nanzhen_oct/shell-script/for.md)
+* [shell](nanzhen_oct/shell.md)
 
