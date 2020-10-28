@@ -8,7 +8,7 @@
 * [2. Conda](afns566-coding-project/2.-conda.md)
 * [3. VirSorter2](afns566-coding-project/3.-virsorter2/README.md)
   * [3.1 Vim](afns566-coding-project/3.-virsorter2/vim.md)
-  * [3.2 for loop](afns566-coding-project/3.-virsorter2/3.-loops-for-while-and-until.md)
+  * [3.2 For loop](afns566-coding-project/3.-virsorter2/3.-loops-for-while-and-until.md)
   * [3.3 Slurm](afns566-coding-project/3.-virsorter2/4.-slurm.md)
 
 ## For nanzhen <a id="nanzhen_oct"></a>
