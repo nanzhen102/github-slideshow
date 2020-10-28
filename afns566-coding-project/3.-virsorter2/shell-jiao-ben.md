@@ -1,26 +1,24 @@
-# 3.2 Shell and shell script
+# 3.2 Shell
 
 #### 3.2.1 Introduction
 
+1\) The bash shell
+
+**Shell** provides an interface between the user and the kernel \(The core of Linux operating system\).
+
+**Bash** is the shell, or command language interpreter, for the Linux operating system. 
+
+2\) Shell scripting
+
+A **shell script** is a text file containing a sequence of commands, so it tells the shell to execute those commands instead of entering the commands line by line.
+
+**Shell keywords** such as if..else, do..while. **Shell commands** such as pwd, test, echo, continue, type.
+
+3\) Variables in shell
 
 
 
 
-
-
-Shell**终端解释器**是人与计算机硬件之间的“翻译官”，它作为用户与Linux**系统**内部的通信媒介，除了能够支持各种变量与参数外，还提供了诸如循环、分支等高级编程语言才有的控制结构特性。要想正确使用Shell中的这些功能特性，**准确下达命令**尤为重要。
-
-Shell**脚本命令**的工作方式有两种：交互式（Interactive）和批处理（Batch）。
-
-{% tabs %}
-{% tab title="Interactive" %}
-用户每输入一条命令就立即执行
-{% endtab %}
-
-{% tab title="Batch（Recommended）" %}
-由用户事先编写好一个完整的Shell script（脚本），Shell会一次性执行脚本中诸多的命令
-{% endtab %}
-{% endtabs %}
 
 #### 3.2.2 SHELL变量
 
@@ -59,6 +57,7 @@ Shell脚本文件的名称可以任意，但为了避免被误以为是普通文
 
 ```text
 #!/bin/bash
+# you can add some comments here. they will be ignored.
 pwd
 ls -al
 ~                                                                                                                   
@@ -67,11 +66,9 @@ ls -al
 "practice_bash.sh" 4L, 24C    
 ```
 
-第一行的脚本声明（\#!）用来告诉系统使用哪种Shell解释器来执行该脚本
+The **\#! syntax** used in scripts to indicate an interpreter for execution under Linux operating systems. Most Linux shell and python script starts with `#!/bin/bash` or `#!/usr/bin/python3`. 
 
-第二、三行的可执行语句是我们平时执行的Linux命令
-
-此外，其他行也可以可以（\#），表示注释信息，对脚本功能和某些命令进行介绍
+A word or line beginning with **\#** causes that word and all remaining characters on that line to be ignored. It helps other system admins to understand your code, logic and it helps them to modify the script you wrote.
 
 **Step3.** vim退出
 
