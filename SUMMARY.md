@@ -15,7 +15,7 @@
 
 ## For nanzhen <a id="nanzhen_oct"></a>
 
-* [💪](nanzhen_oct/others.md)
+* [👉](nanzhen_oct/others.md)
 * [previous\_virsorter2](nanzhen_oct/virsorter2.md)
 * [gitbook](nanzhen_oct/5.-gitbook.md)
 

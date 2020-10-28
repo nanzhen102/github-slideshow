@@ -1,4 +1,4 @@
-# 💪
+# 👉
 
 * [ ] Shiny 
 * [ ] http://yanping.me/shiny-tutorial/
