@@ -10,7 +10,5 @@
 >
 > 多问
 
-**Bingjie and Yueyue** 
 
-**✨ ✨**
 
