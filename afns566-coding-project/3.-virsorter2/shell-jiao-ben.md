@@ -79,9 +79,9 @@ A word or line beginning with **\#** causes that word and all remaining characte
 
 * https://www.linuxprobe.com/chapter-04.html
 * https://github.com/qinjx/30min\_guides/blob/master/shell.md
-* https://bash.cyberciti.biz/guide/Main\_Page  **👈  ✨✨**  
-* https://linuxcommand.org/lc3\_writing\_shell\_scripts.php **👈  ✨✨** 
-* https://www.tutorialspoint.com/unix/unix-using-variables.htm **👈  ✨✨**
+* https://bash.cyberciti.biz/guide/Main\_Page  ⭐️ ⭐️⭐️
+* https://linuxcommand.org/lc3\_writing\_shell\_scripts.php ⭐️ ⭐️⭐️
+* https://www.tutorialspoint.com/unix/unix-using-variables.htm ⭐️ ⭐️⭐️
 
 
 
