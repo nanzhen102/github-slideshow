@@ -27,19 +27,19 @@ Follow the four steps below to install a development version.
 
 #### 3.3 Test run \(only one input file\)
 
-**Step 1.** Fetch testing data
+Step 1. ****Fetch testing data
 
 ```text
 wget -O test.fa https://raw.githubusercontent.com/jiarong/VirSorter2/master/test/8seq.fa 
 ```
 
-**Step 2.** Run classification with 4 threads \(-j\) and test-out as output directory \(-w\)
+Step 2**.** Run classification with 4 threads \(-j\) and test-out as output directory \(-w\)
 
 ```text
 virsorter run -w test.out -i test.fa -j 4
 ```
 
-**Step 3.** Check results
+Step 3. ****Check results
 
 ```text
 ls test.out
