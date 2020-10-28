@@ -99,7 +99,19 @@ Step 9. Run `squeue` .
 
 ```
 
-or run `squeue -u qnz`
+or run `squeue -u qnz`.
+
+{% hint style="info" %}
+squeue - Job States - ST
+
+R - Job is running on compute nodes 
+
+PD - Job is waiting on compute nodes 
+
+CG - Job is completing
+{% endhint %}
+
+
 
 waiting......
 
