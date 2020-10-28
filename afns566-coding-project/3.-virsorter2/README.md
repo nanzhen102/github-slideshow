@@ -45,7 +45,7 @@ Step 3. ****Check results
 ls test.out
 ```
 
-#### 3.4 Officially run \(multiple input files\)
+#### 3.4 Official run \(multiple input files\)
 
 Step 1. ****Learn Vim.
 
