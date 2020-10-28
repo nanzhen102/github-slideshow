@@ -1,6 +1,12 @@
-# 3.2 Shell
+# 3.2 Shell and shell script
 
 #### 3.2.1 Introduction
+
+
+
+
+
+
 
 Shell**终端解释器**是人与计算机硬件之间的“翻译官”，它作为用户与Linux**系统**内部的通信媒介，除了能够支持各种变量与参数外，还提供了诸如循环、分支等高级编程语言才有的控制结构特性。要想正确使用Shell中的这些功能特性，**准确下达命令**尤为重要。
 
@@ -82,6 +88,9 @@ ls -al
 #### 3.2.4 References
 
 * https://www.linuxprobe.com/chapter-04.html
+* https://github.com/qinjx/30min\_guides/blob/master/shell.md
+* https://bash.cyberciti.biz/guide/Main\_Page  **👈  ✨✨**  
+* https://linuxcommand.org/lc3\_writing\_shell\_scripts.php **👈  ✨✨** 
 
 
 
