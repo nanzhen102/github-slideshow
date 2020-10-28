@@ -30,5 +30,5 @@ description: >-
 
 \*\*\*\*
 
-**Thanks to Bingjie and Yueyue, and labmates in BMB lab 610.**
+\*\*\*\*
 
