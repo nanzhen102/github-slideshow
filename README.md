@@ -16,19 +16,5 @@ description: >-
 
 
 
-
-
- 
-
-\*\*\*\*
-
-\*\*\*\*
-
-\*\*\*\*
-
-\*\*\*\*
-
-\*\*\*\*
-
-\*\*\*\*
+If you have any queries, please do not hesitate to email nanzhen.qiao@gmail.com.
 

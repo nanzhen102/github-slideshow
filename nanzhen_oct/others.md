@@ -2,7 +2,7 @@
 
 * [ ] Shiny 
 * [ ] http://yanping.me/shiny-tutorial/
-* [ ] Python
+* [x] Python
 * [ ] R
 * [ ] Markdown
 
