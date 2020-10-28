@@ -1,6 +1,6 @@
 # Table of contents
 
-* [......](README.md)
+* [Introduction](README.md)
 
 ## for AFNS566 coding project <a id="afns566-coding-project"></a>
 
