@@ -47,23 +47,63 @@ ls test.out
 
 #### 3.4 Officially run \(multiple input files\)
 
-**Step 1.** Learn Vim.
+Step 1. ****Learn Vim.
 
 {% page-ref page="vim.md" %}
 
-**Step 2.** Learn Shell.
+Step 2. ****Learn Shell.
 
 {% page-ref page="shell-jiao-ben.md" %}
 
-**Step 3.** Learn for loop.
+Step 3. ****Learn for loop.
 
 {% page-ref page="3.-loops-for-while-and-until.md" %}
 
-**Step 4.** Learn Slurm.
+Step 4. ****Learn Slurm.
 
 {% page-ref page="4.-slurm.md" %}
 
-**Step 5. waiting...**
+Step 5. Run `vim virsorter2_nanzhen_1.sh`.
+
+Step 6. Type the following command lines.
+
+```text
+#!/bin/sh
+#SBATCH -J nanzhen_virsorter2
+#SBATCH -c 30
+#SBATCH -p normal
+
+for i in `ls /beegfs/home/qnz/scaffold`
+do
+virsorter run -w ${i} -i /beegfs/home/qnz/scaffold/${i} -j 30
+done
+
+```
+
+Step 7. Run `conda activate vs2`.
+
+Step 8. Run `sbatch virsor2_nanzhen_1.sh`.
+
+```text
+(vs2) [nanzhen@admin ~]$ sbatch virsorter2_nanzhen_1.sh
+>>> Submitted batch job 45693
+```
+
+Step 9. Run `squeue` .
+
+```text
+(vs2) [nanzhen@admin ~]$ squeue
+>>>              JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON) 
+>>>              42222    normal nnnnnnnn      nnn  R 1-08:24:37      1 node4 
+>>>              45693    normal nanzhen_      qnz  R       1:03      1 node3 
+
+```
+
+or run `squeue -u qnz`
+
+waiting......
+
+
 
 #### 3.5 References
 
