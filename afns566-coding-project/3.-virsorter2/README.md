@@ -49,7 +49,7 @@ ls test.out
 
 **Step 1.** Learn Vim.
 
-
+{% page-ref page="vim.md" %}
 
 **Step 2.** Learn for loop.
 
