@@ -52,13 +52,13 @@ Hit the Esc key.
 Run `cat <file_name>`
 
 ```text
-(base) [qnz@admin ~]$ vim practice_vim.txt
-(base) [qnz@admin ~]$ cat practice_vim.txt
+(base) [nanzhen@admin ~]$ vim practice_vim.txt
+(base) [nanzhen@admin ~]$ cat practice_vim.txt
 a
 bb
 ccc
 dddd
-(base) [qnz@admin ~]$ 
+(base) [nanzhen@admin ~]$ 
 ```
 
 {% hint style="info" %}
