@@ -13,7 +13,13 @@
 
 * [1. Vim Text Editor 编辑器](nanzhen_oct/vim.md)
 * [2. Shell脚本](nanzhen_oct/shell-jiao-ben.md)
-* [3. Gitbook](nanzhen_oct/5.-gitbook.md)
+* [3. Loops for, while and until](nanzhen_oct/3.-loops-for-while-and-until.md)
+* [9. Gitbook](nanzhen_oct/5.-gitbook.md)
 * [Virsorter2](nanzhen_oct/virsorter2.md)
-* [💪](nanzhen_oct/others.md)
+* [💪💪💪](nanzhen_oct/others.md)
+* [Shell Script](nanzhen_oct/shell-script/README.md)
+  * [Shell](nanzhen_oct/shell-script/shell.md)
+  * [bash](nanzhen_oct/shell-script/bash.md)
+  * [Vim](nanzhen_oct/shell-script/vim.md)
+  * [For](nanzhen_oct/shell-script/for.md)
 

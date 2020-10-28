@@ -24,5 +24,5 @@ description: >-
 
 \*\*\*\*
 
-**Thanks to Bingjie and Yueyue, and labmates in BMB lab 610.**see the next group
+**Thanks to Bingjie and Yueyue, and labmates in BMB lab 610.**
 
