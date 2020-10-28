@@ -53,11 +53,13 @@ ls test.out
 
 **Step 2.** Learn for loop.
 
-
+{% page-ref page="3.-loops-for-while-and-until.md" %}
 
 **Step 3.** Learn Slurm.
 
- 
+{% page-ref page="4.-slurm.md" %}
+
+
 
 \*\*\*\*
 
