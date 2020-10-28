@@ -1,0 +1,85 @@
+# 3. VirSorter2
+
+#### 3.1 Introduction
+
+VirSorter2 applies a multi-classifier, expert-guided approach to detect diverse DNA and RNA virus genomes.
+
+#### 3.2 Installation 
+
+Two methods to install VirSorter2.
+
+{% tabs %}
+{% tab title="Simple method" %}
+Run`conda install -c bioconda virsorter=2` to install this package with Conda.
+{% endtab %}
+
+{% tab title="Recommended method " %}
+Follow the four steps below to install a development version.
+
+1. Run `conda create -n vs2 -c bioconda -c conda-forge python=3 scikit-learn=0.22.1 imbalanced-learn pandas seaborn hmmer prodigal screed ruamel.yaml snakemake=5.16.0 click` to create an environment named "vs2"  and install other packages.
+2. Run `conda activate vs2` to activate the environment.
+3. Run `git clone https://github.com/jiarong/VirSorter2.git` to clone all documents.
+4. Run `cd VirSorter2` to change to the dictionary named "VirSorter2", run `pip install -e .`to final install it.  
+
+> `-e` is short for `--editable`, and `.` refers to the current working directory, so together, it means to install the current directory \(i.e. your project\) in editable mode.
+{% endtab %}
+{% endtabs %}
+
+#### 3.3 Test run 
+
+**Step 1.** Fetch testing data
+
+```text
+wget -O test.fa https://raw.githubusercontent.com/jiarong/VirSorter2/master/test/8seq.fa 
+```
+
+**Step 2.** Run classification with 4 threads \(-j\) and test-out as output directory \(-w\)
+
+```text
+virsorter run -w test.out -i test.fa -j 4
+```
+
+**Step 3.** Check results
+
+```text
+ls test.out
+```
+
+#### 3.4 Officially run
+
+**Step 1. Learn** [**4. SLURM**](4.-slurm.md)**.**
+
+**Step 2. Learn** [**1. Vim Text Editor 编辑器**](vim.md)
+
+**Step 3. Learn** [**3. For in Linux**](../../nanzhen_oct/3.-loops-for-while-and-until.md)\*\*\*\*
+
+Step 4. 
+
+\*\*\*\*
+
+#### 3.5 References
+
+* https://github.com/jiarong/VirSorter2
+* https://peerj.com/articles/985/ 
+
+
+
+{% hint style="info" %}
+以前的版本：
+
+Xudong Li:
+
+virsorter.lsf （Linux里后缀无所谓，不过bash还是常用.sh为后缀，方便自己识别）
+
+```text
+for file in 6_BDME192013411-1a 9_BDME192013412-1a 10_BDME192013413-1a 11_BDME192013414-1a
+do
+nohup wrapper_phage_contigs_sorter_iPlant.pl -f /mnt/data/home/lxd/4_salt_metagenomics/5.megahit_out/${file}/final.contigs.fa --db 1 --wdir /mnt/data/home/lxd/4_salt_metagenomics/viruses/virsorter/${file}/ --data-dir /mnt/data/home/lxd/4_salt_metagenomics/tools/virsorter-data --ncpu 15 --diamond 1>${file}.out 2>${file}.err &
+done
+```
+
+最新的版本看jiarong github，先下载，后面的步骤就很简单
+{% endhint %}
+
+
+
