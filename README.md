@@ -6,7 +6,7 @@ description: >-
 
 # Introduction
 
-#### Time: Oct 28, 2020
+#### Date: Oct 28, 2020
 
 #### Author: Nanzhen Qiao
 
