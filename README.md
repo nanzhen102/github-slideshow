@@ -8,7 +8,7 @@ description: >-
 
 #### Time: Oct 28, 2020
 
-#### Author: Nanzhen Qiao, nanzhen.qiao@gmail.com
+#### Author: Nanzhen Qiao
 
 #### Status: Version 1.0
 
