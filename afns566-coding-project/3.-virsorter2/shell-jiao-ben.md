@@ -1,3 +1,7 @@
+---
+description: difficult ⭐️ ⭐️⭐️
+---
+
 # 3.2 Shell
 
 #### 3.2.1 Introduction
@@ -77,6 +81,8 @@ A word or line beginning with **\#** causes that word and all remaining characte
 * https://github.com/qinjx/30min\_guides/blob/master/shell.md
 * https://bash.cyberciti.biz/guide/Main\_Page  **👈  ✨✨**  
 * https://linuxcommand.org/lc3\_writing\_shell\_scripts.php **👈  ✨✨** 
+* https://www.tutorialspoint.com/unix/unix-using-variables.htm **👈  ✨✨**
+* \*\*\*\*
 
 
 
