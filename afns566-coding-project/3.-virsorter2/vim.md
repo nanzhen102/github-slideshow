@@ -65,13 +65,11 @@ dddd
 保存在哪里了？
 {% endhint %}
 
+#### 1.3 Vim cheatsheet
 
+{% file src="../../.gitbook/assets/vim-cheatsheet.pdf" caption="Vim\_cheatsheet" %}
 
-
-
-
-
-#### References
+#### 1.4 References
 
 * https://opensource.com/article/19/3/getting-started-vim
 * https://www.linuxprobe.com/chapter-04.html
