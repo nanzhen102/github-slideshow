@@ -31,7 +31,7 @@ dddd
 
 **Step4.** Hit the Esc key to get into the command line mode.
 
-**Step5.** Type `:wq!` to close the console window.
+**Step5.** Type `:wq!` to save and close the console window.
 
 `:q!`, forced to close the window and not save modifications.
 
@@ -61,8 +61,4 @@ dddd
 
 * https://opensource.com/article/19/3/getting-started-vim
 * https://www.linuxprobe.com/chapter-04.html
-
-
-
-
 

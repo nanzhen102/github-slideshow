@@ -1,5 +1,5 @@
 ---
-description: difficult ⭐️ ⭐️⭐️
+description: difficulty level ⭐️ ⭐️⭐️
 ---
 
 # 3.2 Shell
@@ -64,7 +64,7 @@ ls -al
 ~                                                                                                                   
 ~  
 ~                                                                                                                 
-"practice_bash.sh" 4L, 24C    
+    
 ```
 
 The **\#! syntax** used in scripts to indicate an interpreter for execution under Linux operating systems. Most Linux shell and python script starts with `#!/bin/bash` or `#!/usr/bin/python3`. 
@@ -73,7 +73,7 @@ A word or line beginning with **\#** causes that word and all remaining characte
 
 **Step 3.** Close the vim window.
 
-**Step 4.** Run `bash practice_bash.sh` to see the result.
+**Step 4.** Run `bash practice_bash.sh` to get the result.
 
 #### 3.2.4 References
 
@@ -82,6 +82,4 @@ A word or line beginning with **\#** causes that word and all remaining characte
 * https://bash.cyberciti.biz/guide/Main\_Page  ⭐️ ⭐️⭐️
 * https://linuxcommand.org/lc3\_writing\_shell\_scripts.php ⭐️ ⭐️⭐️
 * https://www.tutorialspoint.com/unix/unix-using-variables.htm ⭐️ ⭐️⭐️
-
-
 

@@ -2,6 +2,7 @@
 
 
 
+{% hint style="info" %}
 以前的版本：
 
 Xudong Li:
@@ -16,4 +17,7 @@ done
 ```
 
 最新的版本看jiarong github，先下载，后面的步骤就很简单
+{% endhint %}
+
+
 
