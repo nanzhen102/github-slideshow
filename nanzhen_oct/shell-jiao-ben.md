@@ -29,7 +29,7 @@ Shell**脚本命令**的工作方式有两种：交互式（Interactive）和批
 {% hint style="info" %}
 shell是一个变量，所以$SHELL
 
-但，大写？
+但，大写？！
 
 `echo` 在终端输出字符串或变量提取后的值
 
