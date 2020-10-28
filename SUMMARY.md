@@ -16,5 +16,5 @@
 * [1. Vim Text Editor 编辑器](nanzhen_oct/vim.md)
 * [2. Shell脚本](nanzhen_oct/shell-jiao-ben.md)
 * [3. Gitbook](nanzhen_oct/5.-gitbook.md)
-* [others](nanzhen_oct/others.md)
+* [nanzhen nanzhen](nanzhen_oct/others.md)
 
