@@ -1,7 +1,5 @@
 ---
-description: >-
-  AFNS566 coding project - assignment 1 - a protocol for basic bioinformatic
-  analysis
+description: AFNS566 coding project - assignment 1
 ---
 
 # Introduction
