@@ -1,7 +1,3 @@
----
-description: difficulty level ⭐️ ⭐️⭐️
----
-
 # 3.2 Shell
 
 #### 3.2.1 Introduction

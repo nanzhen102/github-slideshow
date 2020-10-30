@@ -4,7 +4,11 @@
 
 VirSorter2 applies a multi-classifier, expert-guided approach to detect diverse DNA and RNA virus genomes.
 
-#### 3.2 Installation 
+#### **3.2 分析标准 ⭐️⭐️**
+
+\*\*\*\*
+
+#### 3.3 Installation 
 
 Two methods to install VirSorter2.
 
@@ -25,7 +29,7 @@ Follow the four steps below to install a development version.
 {% endtab %}
 {% endtabs %}
 
-#### 3.3 Test run \(only one input file\)
+#### 3.4 Test run \(only one input file\)
 
 Step 1. ****Fetch testing data
 
@@ -45,7 +49,7 @@ Step 3. ****Check results
 ls test.out
 ```
 
-#### 3.4 Official run \(multiple input files\)
+#### 3.5 Official run \(multiple input files\)
 
 Step 1. ****Learn Vim.
 
@@ -111,13 +115,31 @@ PD - Job is waiting on compute nodes
 CG - Job is completing
 {% endhint %}
 
+{% hint style="info" %}
+为什么lyj提交了这么多个任务？
 
+NAME通常以分析目的命名，如RNAseq, spades, metaspad
+
+为什么xcs的不命名
+
+```text
+             JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON) 
+             20458       big metaspad      zjs  R 17-02:09:03      1 node1 
+             45693    normal nanzhen_      qnz  R 1-12:33:56      1 node3 
+             48151    normal   EDTA_5      bdx  R    7:20:14      1 node5 
+             48341       smp               xcs  R    3:38:00      1 node2 
+             48349       smp               xcs  R    2:03:27      1 node2 
+
+```
+{% endhint %}
+
+等分析结果中间做什么？
 
 waiting......
 
 
 
-#### 3.5 References
+#### 3.6 References
 
 * https://github.com/jiarong/VirSorter2
 * https://peerj.com/articles/985/ 
