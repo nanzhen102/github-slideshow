@@ -98,7 +98,7 @@ Step 9. Run `squeue` .
 or run `squeue -u qnz`.
 
 {% hint style="info" %}
-
+🧙♂ 
 
 squeue - Job States - ST
 
@@ -110,6 +110,8 @@ CG - Job is completing
 {% endhint %}
 
 {% hint style="info" %}
+❓ 
+
 为什么lyj提交了这么多个任务？
 
 NAME通常以分析目的命名，如RNAseq, spades, metaspad
