@@ -122,6 +122,8 @@ NAME通常以分析目的命名，如RNAseq, spades, metaspad
 
 为什么xcs的不命名
 
+smp和normal的区别？
+
 ```text
              JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON) 
              20458       big metaspad      zjs  R 17-02:09:03      1 node1 
