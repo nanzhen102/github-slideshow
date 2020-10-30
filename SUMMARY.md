@@ -14,14 +14,14 @@
 * [4. Bin](afns566-coding-project/4.-bin.md)
 * [\(later...\)](afns566-coding-project/4.-crt.md)
 
+## For phd research
+
+* [1. fasta file](for-phd-research/1.-fasta-file.md)
+* [2. genomes download](for-phd-research/2.-genomes-download.md)
+
 ## For nanzhen <a id="nanzhen_oct"></a>
 
 * [👉](nanzhen_oct/others.md)
 * [previous\_virsorter2](nanzhen_oct/virsorter2.md)
 * [gitbook](nanzhen_oct/5.-gitbook.md)
-
-## For phd research
-
-* [1. fasta file](for-phd-research/1.-fasta-file.md)
-* [2. genomes download](for-phd-research/2.-genomes-download.md)
 
