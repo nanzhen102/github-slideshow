@@ -4,7 +4,7 @@
 
 VirSorter2 applies a multi-classifier, expert-guided approach to detect diverse DNA and RNA virus genomes.
 
-#### **3.2 分析标准 ⭐️⭐️**
+#### **3.2 分析标准** ❓ 
 
 \*\*\*\*
 
