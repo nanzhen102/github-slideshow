@@ -17,6 +17,8 @@
 > 当作HPLC或者PCR
 >
 > simple!!!!!
+>
+> 一般拿到代码，调试。具体小细节emmm
 
 
 
@@ -45,7 +47,7 @@ MDT time \(one day before Wuhan time\)
 | Nov 14 | 2 AM |  | AFNS 566 | Wuhan | DD2 |
 |  |  |  |  |  |  |
 | Nov 16 | 2 PM |  | lab meeting | Zoom | DD3 |
-| **Nov 17** | 2 PM |  | **poster presentation** | Zoom | deadline1 |
+| **Nov 17** | 2 PM |  | **660 presentation** | Zoom | deadline1 |
 | Nov 18 |  |  | 566 meeting | Zoom |  |
 |  |  |  |  |  |  |
 |  |  |  |  |  |  |
