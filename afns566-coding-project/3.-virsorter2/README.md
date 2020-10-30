@@ -51,21 +51,13 @@ ls test.out
 
 #### 3.5 Official run \(multiple input files\)
 
-Step 1. ****Learn Vim.
+Step 1. ****Learn [Vim](vim.md).
 
-{% page-ref page="vim.md" %}
+Step 2. ****Learn [Shell](shell-jiao-ben.md).
 
-Step 2. ****Learn Shell.
+Step 3. ****Learn [for loop](3.-loops-for-while-and-until.md).
 
-{% page-ref page="shell-jiao-ben.md" %}
-
-Step 3. ****Learn for loop.
-
-{% page-ref page="3.-loops-for-while-and-until.md" %}
-
-Step 4. ****Learn Slurm.
-
-{% page-ref page="4.-slurm.md" %}
+Step 4. ****Learn [Slurm](4.-slurm.md).
 
 Step 5. Run `vim virsorter2_nanzhen_1.sh`.
 
@@ -106,6 +98,8 @@ Step 9. Run `squeue` .
 or run `squeue -u qnz`.
 
 {% hint style="info" %}
+
+
 squeue - Job States - ST
 
 R - Job is running on compute nodes 
