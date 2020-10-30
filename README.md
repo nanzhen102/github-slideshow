@@ -1,5 +1,5 @@
 ---
-description: AFNS566 coding project - assignment 1
+description: AFNS566 coding project & phd project
 ---
 
 # Introduction
@@ -10,7 +10,7 @@ description: AFNS566 coding project - assignment 1
 
 #### Status: Version 1.0
 
-#### Project: The analysis of prophage in piglet gut microbiome
+#### Project: The analysis of prophage in piglet gut microbiome & the phylogenetic tree of the family **Lactobacillaceae**
 
 
 
