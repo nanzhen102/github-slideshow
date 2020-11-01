@@ -20,6 +20,8 @@
 >
 > 一般拿到代码，调试。具体小细节emmm
 
+> 20201101 实验室抽查东哥代码实验室记录本 ‼
+
 
 
 > Nov 20, 2020\), Oral presentation in Jinshui's class
