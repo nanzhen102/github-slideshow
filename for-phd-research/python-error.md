@@ -4,5 +4,7 @@
 
 find the specific line, press the key Tab
 
-nnn
+#### SyntaxError: invalid syntax
+
+def command, **DO NOT forget the ":"**
 
