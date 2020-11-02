@@ -16,10 +16,10 @@
 
 ## For phd project <a id="for-phd-research"></a>
 
-* [Python-error](for-phd-research/python-error.md)
 * [1. fasta file](for-phd-research/1.-fasta-file.md)
 * [2. genomes download](for-phd-research/2.-genomes-download.md)
 * [3. Bilibili-download and parse NCBI Nucleotide data](for-phd-research/3.-bilibili-course.md)
+* [Python-question](for-phd-research/python-error.md)
 
 ## For nanzhen <a id="nanzhen_oct"></a>
 
