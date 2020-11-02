@@ -16,6 +16,7 @@
 
 ## For phd project <a id="for-phd-research"></a>
 
+* [Python-error](for-phd-research/python-error.md)
 * [1. fasta file](for-phd-research/1.-fasta-file.md)
 * [2. genomes download](for-phd-research/2.-genomes-download.md)
 
