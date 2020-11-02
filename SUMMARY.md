@@ -19,6 +19,7 @@
 * [Python-error](for-phd-research/python-error.md)
 * [1. fasta file](for-phd-research/1.-fasta-file.md)
 * [2. genomes download](for-phd-research/2.-genomes-download.md)
+* [3. Bilibili course](for-phd-research/3.-bilibili-course.md)
 
 ## For nanzhen <a id="nanzhen_oct"></a>
 
