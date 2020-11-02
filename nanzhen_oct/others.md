@@ -34,7 +34,7 @@ MDT time \(one day before Wuhan time\)
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | Oct 31 | 2 AM |  | AFNS 566 | Wuhan |  |
 | Nov 1 |  |  |  |  |  |
-| Nov 2 | 2 PM |  | lab meeting | Zoom |  |
+| Nov 2 | 12 PM |  | lab meeting | Zoom |  |
 | Nov 3 | 2 PM |  | AFNS 660 | Zoom |  |
 | Nov 4 | 8 PM |  | phd meeting | Zoom |  |
 | Nov 5 |  |  |  |  |  |
