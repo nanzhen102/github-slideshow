@@ -57,7 +57,7 @@ MDT time \(one day before Wuhan time\)
 | **Nov 21** | 2 AM |  | **566 presentation+review** | Wuhan | deadline2 |  |  |  |  |
 |  |  |  |  |  |  |  |  |  |  |
 | **Nov 23** | **2 PM** | \*\*\*\* | **lab presentation**  | **Zoom** | deadline3 |  |  |  |  |
-| Nov 24 |  |  | AFNS 660 | Zoom | deadline4 |  |  |  |  |
+| Nov 24 |  |  | AFNS 660 | Zoom | deadline4 | write |  |  |  |
 |  |  |  |  |  |  |  |  |  |  |
 |  |  |  |  |  |  |  |  |  |  |
 | **Dec 10** | \*\*\*\* |  | **566 SOP** | **Zoom** | deadline4 |  |  |  |  |
