@@ -51,13 +51,13 @@ MDT time \(one day before Wuhan time\)
 |  |  |  |  |  |  |  |  |  |  |
 | Nov 16 | 2 PM |  | lab meeting | Zoom | DD3 |  |  |  |  |
 | **Nov 17** | 2 PM |  | **660 presentation** | Zoom | deadline1 |  |  |  |  |
-| Nov 18 |  |  | 566 meeting | Zoom |  |  |  |  |  |
+| Nov 18 |  |  | 566 meeting | Zoom | DD4 |  |  |  |  |
 |  |  |  |  |  |  |  |  |  |  |
 |  |  |  |  |  |  |  |  |  |  |
 | **Nov 21** | 2 AM |  | **566 presentation+review** | Wuhan | deadline2 |  |  |  |  |
 |  |  |  |  |  |  |  |  |  |  |
 | **Nov 23** | **2 PM** | \*\*\*\* | **lab presentation**  | **Zoom** | deadline3 |  |  |  |  |
-| Nov 24 |  |  | AFNS 660 | Zoom |  |  |  |  |  |
+| Nov 24 |  |  | AFNS 660 | Zoom | deadline4 |  |  |  |  |
 |  |  |  |  |  |  |  |  |  |  |
 |  |  |  |  |  |  |  |  |  |  |
 | **Dec 10** | \*\*\*\* |  | **566 SOP** | **Zoom** | deadline4 |  |  |  |  |
