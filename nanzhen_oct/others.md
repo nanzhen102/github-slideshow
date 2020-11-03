@@ -37,7 +37,7 @@ MDT time \(one day before Wuhan time\)
 | Nov 1 |  |  |  |  |  |  |  |  |  |
 | Nov 2 | 12 PM |  | lab meeting | Zoom |  | genome download-try | DD1-slide-outline |  |  |
 | Nov 3 | 2+12PM |  | AFNS 660+lab meeting | Zoom |  | python course | ~~manuscript writing~~ |  |  |
-| Nov 4 | 8 PM |  | phd meeting | Zoom |  | rerun the python script |  |  |  |
+| Nov 4 | 8 PM |  | phd meeting | Zoom |  | rerun the python script | AFNS660-peerreview-check |  |  |
 | Nov 5 |  |  |  |  |  |  |  |  |  |
 | Nov 6 |  |  |  |  |  |  |  |  |  |
 | Nov 7 | 2 AM |  | AFNS 566 | Wuhan |  |  |  |  |  |
