@@ -8,3 +8,9 @@ find the specific line, press the key Tab
 
 def command, **DO NOT forget the ":"**
 
+#### 查找目录，如sqlite3的安装
+
+terminal, `which sqlite3` 
+
+
+
