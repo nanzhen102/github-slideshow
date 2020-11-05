@@ -18,7 +18,7 @@ terminal, `which sqlite3`
 
 #### python3中sqlite3安装出现问题
 
-参考，https://blog.csdn.net/jeryjeryjery/article/details/81707023。已经成功解决
+参考 https://blog.csdn.net/jeryjeryjery/article/details/81707023。已经成功解决
 
 #### AttributeError: module 'urllib' has no attribute 'request'
 
