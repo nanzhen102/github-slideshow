@@ -20,6 +20,7 @@
 * [2. genomes download](for-phd-research/2.-genomes-download.md)
 * [3. Bilibili course-parse website data](for-phd-research/3.-bilibili-course.md)
 * [Python-question](for-phd-research/python-error.md)
+* [4. Bilibili course-数据可视化](for-phd-research/4.-bilibili-course-shu-ju-ke-shi-hua.md)
 
 ## For nanzhen <a id="nanzhen_oct"></a>
 
