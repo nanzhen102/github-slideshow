@@ -34,36 +34,36 @@
 
 MDT time \(one day before Wuhan time\)
 
-| Date | MDT time | MDT time | Topic | Place |  | Task1 | Task2 |  |  |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Oct 31 | 2 AM |  | AFNS 566 | Wuhan |  |  |  |  |  |
-| Nov 1 |  |  |  |  |  |  |  |  |  |
-| Nov 2 | 12 PM |  | lab meeting | Zoom |  | ~~genome download-try~~ | ~~DD1-slide-outline~~ |  |  |
-| Nov 3 | 2+12PM |  | AFNS 660+~~lab meeting~~ | Zoom |  | ~~python course~~ | ~~manuscript writing~~ |  |  |
-| Nov 4 | 8 PM |  | ~~phd meeting~~ | Zoom |  | rerun the python script | AFNS660-peerreview-check | DD1-slide | Python course |
-| Nov 5 |  |  |  |  |  | rerun the python script | Email AFNS566 |  | Python course |
-| Nov 6 |  |  |  |  |  |  |  |  |  |
-| Nov 7 | 2 AM+12PM |  | AFNS 566+AFNS601 | Wuhan+Zoom |  |  |  |  |  |
-| Nov 8 |  |  |  |  |  |  |  |  |  |
-| Nov 9 | 2 PM |  | lab meeting | Zoom |  |  |  |  |  |
-| Nov 10 | - | - | - | - | DD1 |  |  |  |  |
-| Nov 11 |  |  | 566 meeting | Zoom |  |  |  |  |  |
-|  |  |  |  |  |  |  |  |  |  |
-|  |  |  |  |  |  |  |  |  |  |
-| Nov 14 | 2 AM |  | AFNS 566 | Wuhan | DD2 |  |  |  |  |
-|  |  |  |  |  |  |  |  |  |  |
-| Nov 16 | 2 PM |  | lab meeting | Zoom | DD3 |  |  |  |  |
-| **Nov 17** | 2 PM |  | **660 presentation** | Zoom | deadline1 |  |  |  |  |
-| Nov 18 |  |  | 566 meeting | Zoom | DD4 |  |  |  |  |
-|  |  |  |  |  |  |  |  |  |  |
-|  |  |  |  |  |  |  |  |  |  |
-| **Nov 21** | 2 AM |  | **566 presentation+review** | Wuhan | deadline2 |  |  |  |  |
-|  |  |  |  |  |  |  |  |  |  |
-| **Nov 23** | **2 PM** | \*\*\*\* | **lab presentation**  | **Zoom** | deadline3 |  |  |  |  |
-| Nov 24 |  |  | AFNS 660 | Zoom | deadline4 | write |  |  |  |
-|  |  |  |  |  |  |  |  |  |  |
-|  |  |  |  |  |  |  |  |  |  |
-| **Dec 10** | \*\*\*\* |  | **566 SOP** | **Zoom** | deadline4 |  |  |  |  |
+| Date | MDT time | MDT time | Topic | Place |  | Task1 | Task2 |  |  |  |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Oct 31 | 2 AM |  | AFNS 566 | Wuhan |  |  |  |  |  |  |
+| Nov 1 |  |  |  |  |  |  |  |  |  |  |
+| Nov 2 | 12 PM |  | lab meeting | Zoom |  | ~~genome download-try~~ | ~~DD1-slide-outline~~ |  |  |  |
+| Nov 3 | 2+12PM |  | AFNS 660+~~lab meeting~~ | Zoom |  | ~~python course~~ | ~~manuscript writing~~ |  |  |  |
+| Nov 4 | 8 PM |  | ~~phd meeting~~ | Zoom |  | rerun the python script | AFNS660-peerreview-check | DD1-slide | ~~Python course~~ | Anki |
+| Nov 5 |  |  |  |  |  | rerun the python script | Email AFNS566 |  | Python course | Anki |
+| Nov 6 |  |  |  |  |  |  |  |  |  | Anki |
+| Nov 7 | 2 AM+12PM |  | AFNS 566+AFNS601 | Wuhan+Zoom |  |  |  |  |  | Anki |
+| Nov 8 |  |  |  |  |  |  |  |  |  | Anki |
+| Nov 9 | 2 PM |  | lab meeting | Zoom |  |  |  |  |  | Anki |
+| Nov 10 | - | - | - | - | DD1 |  |  |  |  | Anki |
+| Nov 11 |  |  | 566 meeting | Zoom |  |  |  |  |  | Anki |
+|  |  |  |  |  |  |  |  |  |  | Anki |
+|  |  |  |  |  |  |  |  |  |  | Anki |
+| Nov 14 | 2 AM |  | AFNS 566 | Wuhan | DD2 |  |  |  |  | Anki |
+|  |  |  |  |  |  |  |  |  |  | Anki |
+| Nov 16 | 2 PM |  | lab meeting | Zoom | DD3 |  |  |  |  | Anki |
+| **Nov 17** | 2 PM |  | **660 presentation** | Zoom | deadline1 |  |  |  |  | Anki |
+| Nov 18 |  |  | 566 meeting | Zoom | DD4 |  |  |  |  |  |
+|  |  |  |  |  |  |  |  |  |  |  |
+|  |  |  |  |  |  |  |  |  |  |  |
+| **Nov 21** | 2 AM |  | **566 presentation+review** | Wuhan | deadline2 |  |  |  |  |  |
+|  |  |  |  |  |  |  |  |  |  |  |
+| **Nov 23** | **2 PM** | \*\*\*\* | **lab presentation**  | **Zoom** | deadline3 |  |  |  |  |  |
+| Nov 24 |  |  | AFNS 660 | Zoom | deadline4 | write |  |  |  |  |
+|  |  |  |  |  |  |  |  |  |  |  |
+|  |  |  |  |  |  |  |  |  |  |  |
+| **Dec 10** | \*\*\*\* |  | **566 SOP** | **Zoom** | deadline4 |  |  |  |  |  |
 
 
 

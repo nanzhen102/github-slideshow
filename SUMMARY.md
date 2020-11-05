@@ -25,7 +25,7 @@
 ## For nanzhen <a id="nanzhen_oct"></a>
 
 * [👉](nanzhen_oct/others.md)
+* [1. Coursera course-Finding Hidden Messages in DNA \(Bioinformatics I\)](nanzhen_oct/1.-coursera-course-finding-hidden-messages-in-dna-bioinformatics-i.md)
 * [previous\_virsorter2](nanzhen_oct/virsorter2.md)
 * [gitbook](nanzhen_oct/5.-gitbook.md)
-* [1. Coursera course-Finding Hidden Messages in DNA \(Bioinformatics I\)](nanzhen_oct/1.-coursera-course-finding-hidden-messages-in-dna-bioinformatics-i.md)
 
