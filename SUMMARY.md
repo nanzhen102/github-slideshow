@@ -13,6 +13,7 @@
   * [3.4 Slurm](afns566-coding-project/3.-virsorter2/4.-slurm.md)
 * [4. Bin](afns566-coding-project/4.-bin.md)
 * [\(later...\)](afns566-coding-project/4.-crt.md)
+* [\*Notes](afns566-coding-project/notes.md)
 
 ## For phd project <a id="for-phd-research"></a>
 
