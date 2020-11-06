@@ -137,7 +137,21 @@ waiting......
 
 #### 3.6 Re-run \(the last job took too much time, over 8 days\)
 
-将
+finished 25 files over the past 9 days.
+
+use `mkdir` to create 10 new dictionaries
+
+use `cp` to copy and remove files into another dictionary
+
+{% hint style="info" %}
+WP1？scaffold.fa的文件被误删了，怎么办？？
+{% endhint %}
+
+
+
+
+
+
 
 #### 3.7 References
 
