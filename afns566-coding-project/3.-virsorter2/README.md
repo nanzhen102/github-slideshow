@@ -147,7 +147,37 @@ use `cp` to copy and remove files into another dictionary
 WP1？scaffold.fa的文件被误删了，怎么办？？
 {% endhint %}
 
+Run `vim virsorter2_nanzhen_sub_1.sh`.
 
+Type the following command lines.
+
+```text
+#!/bin/sh
+#SBATCH -J virsorter2
+#SBATCH -c 30
+#SBATCH -p normal
+
+for i in `ls /beegfs/home/qnz/scaffold_sub_1`
+do
+virsorter run -w ${i} -i /beegfs/home/qnz/scaffold_sub_1/${i} -j 30
+done
+
+```
+
+Step 7. Run `conda activate vs2`.
+
+Step 8. Run `sbatch virsor2_nanzhen_sub_1.sh`.
+
+```text
+(vs2) [nanzhen@admin ~]$ sbatch virsorter2_nanzhen_1.sh
+>>> Submitted batch job 45693
+```
+
+Step 9. Run `squeue` .
+
+提交了14个一个job名字的任务，有些在排队。
+
+明天看看吧
 
 
 
