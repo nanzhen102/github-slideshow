@@ -135,9 +135,11 @@ smp和normal的区别？
 
 waiting......
 
+#### 3.6 Re-run \(the last job took too much time, over 8 days\)
 
 
-#### 3.6 References
+
+#### 3.7 References
 
 * https://github.com/jiarong/VirSorter2
 * https://peerj.com/articles/985/ 
