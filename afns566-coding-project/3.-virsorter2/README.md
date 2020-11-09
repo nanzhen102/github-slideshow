@@ -187,7 +187,7 @@ Step 7. Run `squeue` .
 
 明天看看吧
 
-Step 8. Run `scancel 45693` to finish unnecessary running jobs. The number is job ID.
+.
 
 
 
@@ -195,6 +195,10 @@ Step 8. Run `scancel 45693` to finish unnecessary running jobs. The number is jo
 \(｡ì \_ í｡\)
 
 You should change `SBATCH -c 30` and `-j 30.`There are72 cores in total, so if you want to run 6 jobs at the same time, change them to 72/6=12.
+
+**how to find and delete vim files?**
+
+**where is the** ~~**repeated**~~ **duplicate result files?** I have submitted several ~~of the same~~ identical jobs.
 {% endhint %}
 
 
