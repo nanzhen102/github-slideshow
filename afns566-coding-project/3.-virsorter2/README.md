@@ -144,13 +144,13 @@ Step 2. use `cp` to copy and remove files into another dictionary
 {% hint style="info" %}
 :D
 
-how to copy multiply files at the same time?
+**how to copy multiply files at the same time?**
 
 `WP?scaffold.fa,`means WP1scaffold.fa, WP4scaffold.fa, etc.
 
 `WP*scaffold.fa,`means WP1scaffold.fa, WP19999scaffold.ca, etc.
 
-WP1？scaffold.fa的文件被`rm`误删了，怎么办？？
+**WP1？scaffold.fa的文件被rm误删了，怎么办？**
 
 无法恢复，娜姐已给copy。
 {% endhint %}
@@ -186,6 +186,10 @@ Step 7. Run `squeue` .
 提交了14个一个job名字的任务，有些在排队。
 
 明天看看吧
+
+Step 8. Run `scancel 45693` to finish unnecessary running jobs. The number is job ID.
+
+
 
 {% hint style="info" %}
 \(｡ì \_ í｡\)
