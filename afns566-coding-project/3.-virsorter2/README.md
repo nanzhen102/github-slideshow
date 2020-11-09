@@ -131,25 +131,33 @@ smp和normal的区别？
 ```
 {% endhint %}
 
-等分析结果中间做什么？
-
 waiting......
 
 #### 3.6 Re-run \(the last job took too much time, over 8 days\)
 
-finished 25 files over the past 9 days.
+only 1/3 files over the past 9 days, so run multiple jobs at the same time.
 
-use `mkdir` to create 10 new dictionaries
+Step 1. use `mkdir` to create 10 new dictionaries
 
-use `cp` to copy and remove files into another dictionary
+Step 2. use `cp` to copy and remove files into another dictionary
 
 {% hint style="info" %}
-WP1？scaffold.fa的文件被误删了，怎么办？？
+:D
+
+how to copy multiply files at the same time?
+
+`WP?scaffold.fa,`means WP1scaffold.fa, WP4scaffold.fa, etc.
+
+`WP*scaffold.fa,`means WP1scaffold.fa, WP19999scaffold.ca, etc.
+
+WP1？scaffold.fa的文件被`rm`误删了，怎么办？？
+
+无法恢复，娜姐已给copy。
 {% endhint %}
 
-Run `vim virsorter2_nanzhen_sub_1.sh`.
+Step 3. Run `vim virsorter2_nanzhen_sub_1.sh`.
 
-Type the following command lines.
+Step 4. Type the following command lines.
 
 ```text
 #!/bin/sh
@@ -164,20 +172,30 @@ done
 
 ```
 
-Step 7. Run `conda activate vs2`.
+Step 5. Run `conda activate vs2`.
 
-Step 8. Run `sbatch virsor2_nanzhen_sub_1.sh`.
+Step 6. Run `sbatch virsor2_nanzhen_sub_1.sh`.
 
 ```text
 (vs2) [nanzhen@admin ~]$ sbatch virsorter2_nanzhen_1.sh
 >>> Submitted batch job 45693
 ```
 
-Step 9. Run `squeue` .
+Step 7. Run `squeue` .
 
 提交了14个一个job名字的任务，有些在排队。
 
 明天看看吧
+
+{% hint style="info" %}
+\(｡ì \_ í｡\)
+
+You should change `SBATCH -c 30` and `-j 30.`There are72 cores in total, so if you want to run 6 jobs at the same time, change them to 72/6=12.
+{% endhint %}
+
+
+
+
 
 
 
