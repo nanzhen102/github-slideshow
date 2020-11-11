@@ -191,14 +191,19 @@ Step 7. Run `squeue` .
 
 #### 3.6 Output files
 
+`final-viral-combined.fa`: identified viral sequences, including two types:
 
+* full sequences identified as viral \(added with suffix `||full`\);
+* partial sequences identified as viral \(added with suffix `||{i}index_partial`\); here `{i}` can be numbers starting from 0 to max number of viral fragments found in that contig;
 
-.
+`final-viral-score.tsv`: table with score of each viral sequences across groups 
+
+`final-viral-boundary.tsv`: table with boundary information
 
 {% hint style="info" %}
 \(｡ì \_ í｡\)
 
-You should change `SBATCH -c 30` and `-j 30.`There are 72 cores in total, so if you want to run 6 jobs at the same time, change them to 72/6=12. Otherwise, It will take some time to run your jobs.
+In **3.7**, you should change `SBATCH -c 30` and `-j 30.`There are 72 cores in total, so if you want to run 6 jobs at the same time, change them to 72/6=12. Otherwise, It will take some time to run your jobs.
 
 **how to find and delete vim files?**
 
