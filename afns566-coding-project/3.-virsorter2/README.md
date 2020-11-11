@@ -189,13 +189,11 @@ Step 6. Run `sbatch virsor2_nanzhen_sub_1.sh`.
 
 Step 7. Run `squeue` .
 
-提交了14个一个job名字的任务，有些在排队。
+#### 3.6 Output files
 
-明天看看吧
+
 
 .
-
-
 
 {% hint style="info" %}
 \(｡ì \_ í｡\)
@@ -207,15 +205,7 @@ You should change `SBATCH -c 30` and `-j 30.`There are 72 cores in total, so if 
 **where is the** ~~**repeated**~~ **duplicate result files?** I have submitted several ~~of the same~~ identical jobs.
 {% endhint %}
 
-
-
-
-
-
-
-
-
-#### 3.6 References
+#### 3.7 References
 
 * https://github.com/jiarong/VirSorter2
 * https://peerj.com/articles/985/ 
