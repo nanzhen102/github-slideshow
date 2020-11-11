@@ -2,9 +2,13 @@
 
 #### 3.1 Introduction
 
-VirSorter2 applies a multi-classifier, expert-guided approach to detect diverse DNA and RNA virus genomes.
+**VirSorter2** applies a multi-classifier, expert-guided approach to detect diverse DNA and RNA virus genomes.
 
-#### **3.2 分析标准** ❓ 
+**rophages** \(viral genomes integrated into a microbial genome.
+
+
+
+#### **3.2 分析标准** 
 
 \*\*\*\*
 
