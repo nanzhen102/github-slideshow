@@ -12,7 +12,7 @@ VirSorter2 ****can identify viral signal in assembled sequence **\(contigs\) as 
 
 ![VirSorter process: overview \(A\) and examples of viral sequence detection \(B\).](../../.gitbook/assets/image.png)
 
-![A simple explanation for the first three VirSorter process steps.](../../.gitbook/assets/virsorter2.jpg)
+![A brief explanation for the first three VirSorter process steps.](../../.gitbook/assets/virsorter2.jpg)
 
 #### 3.2 Installation 
 
