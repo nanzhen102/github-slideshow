@@ -67,3 +67,9 @@ foreach (%ids) {
 time nohup checkm lineage_wf -f checkM-SCG-single.txt -t 72 --pplacer_threads 10 -x fasta ./part2 ./output2
 ```
 
+
+
+#### 4.3 Run 
+
+
+
