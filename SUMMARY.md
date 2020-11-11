@@ -21,9 +21,10 @@
 ## For phd project <a id="for-phd-research"></a>
 
 * [1. fasta file](for-phd-research/1.-fasta-file.md)
-* [2. genomes download](for-phd-research/2.-genomes-download.md)
-* [3. Bilibili course-parse website data](for-phd-research/3.-bilibili-course.md)
-* [4. Youtube-HTTP requests to import data from the web](for-phd-research/4.-youtube-http-requests-to-import-data-from-the-web.md)
+* [2. genomes download](for-phd-research/2.-genomes-download/README.md)
+  * [Untitled](for-phd-research/2.-genomes-download/untitled.md)
+  * [2.1 Bilibili course-parse website data](for-phd-research/2.-genomes-download/3.-bilibili-course.md)
+  * [2.2 Youtube-HTTP requests to import data from the web](for-phd-research/2.-genomes-download/4.-youtube-http-requests-to-import-data-from-the-web.md)
 * [\*Notes](for-phd-research/python-error.md)
 
 ## For nanzhen <a id="nanzhen_oct"></a>
