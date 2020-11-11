@@ -8,13 +8,11 @@ description: This step should be done before VirSorter2.
 
 scaffold file
 
-metagenomic, DNA RNA?
+metagenomic, DNA
 
 
 
-#### 4.2 Run 
-
-Convert .perl file to shell file.
+#### 4.2 Convert .perl file to shell file.  
 
 ```javascript
 #!/usr/bin/perl -w
