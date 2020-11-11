@@ -12,6 +12,7 @@
   * [3.3 For loop](afns566-coding-project/3.-virsorter2/3.-loops-for-while-and-until.md)
   * [3.4 Slurm](afns566-coding-project/3.-virsorter2/4.-slurm.md)
 * [4. Bin](afns566-coding-project/4.-bin.md)
+* [5. CheckV](afns566-coding-project/5.-checkv.md)
 * [\(later...\)](afns566-coding-project/4.-crt.md)
 * [\*Notes](afns566-coding-project/notes.md)
 
