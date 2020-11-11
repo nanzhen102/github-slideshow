@@ -10,11 +10,7 @@ A **bacteriophage** \(also known informally as a phage\) is a virus that infects
 
 VirSorter2 ****can identify viral signal in assembled sequence **\(contigs\) as short as 3kb**, while providing near-perfect identification **\(&gt;95% Recall and 100% Precision\) on contigs of at least 10kb**.
 
-#### **3.2 分析标准** 
-
-\*\*\*\*
-
-#### 3.3 Installation 
+#### 3.2 Installation 
 
 Two methods to install VirSorter2.
 
@@ -35,7 +31,7 @@ Follow the four steps below to install a development version.
 {% endtab %}
 {% endtabs %}
 
-#### 3.4 Test run \(only one input file\)
+#### 3.3 Test run \(only one input file\)
 
 Step 1. ****Fetch testing data
 
@@ -55,7 +51,7 @@ Step 3. ****Check results
 ls test.out
 ```
 
-#### 3.5 Official run \(multiple input files\)
+#### 3.4 Official run \(multiple input files\)
 
 Step 1. ****Learn [Vim](vim.md).
 
@@ -139,7 +135,7 @@ smp和normal的区别？
 
 waiting......
 
-#### 3.6 Re-run \(the last job took too much time, over 8 days\)
+#### 3.5 Re-run \(the last job took too much time, over 8 days\)
 
 only 1/3 files over the past 9 days, so run multiple jobs at the same time.
 
@@ -215,7 +211,7 @@ You should change `SBATCH -c 30` and `-j 30.`There are 72 cores in total, so if 
 
 
 
-#### 3.7 References
+#### 3.6 References
 
 * https://github.com/jiarong/VirSorter2
 * https://peerj.com/articles/985/ 
