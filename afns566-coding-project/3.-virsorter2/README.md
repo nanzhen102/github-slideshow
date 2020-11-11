@@ -10,6 +10,8 @@ A **bacteriophage** \(also known informally as a phage\) is a virus that infects
 
 VirSorter2 ****can identify viral signal in assembled sequence **\(contigs\) as short as 3kb**, while providing near-perfect identification **\(&gt;95% Recall and 100% Precision\) on contigs of at least 10kb**.
 
+![VirSorter process: overview \(A\) and examples of viral sequence detection \(B\).](../../.gitbook/assets/image.png)
+
 #### 3.2 Installation 
 
 Two methods to install VirSorter2.
