@@ -16,7 +16,8 @@
 
 
 
-* [ ] phage是DNA RNA病毒还是？
+* [ ] phage是DNA RNA病毒还是？95%DNA病毒
+* [ ] Virsorter是检测prophage和病毒序列吗？
 
 
 
