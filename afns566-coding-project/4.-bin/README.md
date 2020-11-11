@@ -12,7 +12,7 @@ metagenomic, DNA
 
 
 
-#### 4.2 Convert .perl file to shell file.  
+#### 4.2 Convert Perl script to Shell script.  
 
 ```javascript
 #!/usr/bin/perl -w
