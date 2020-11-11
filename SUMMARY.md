@@ -30,9 +30,9 @@
 ## For nanzhen <a id="nanzhen_oct"></a>
 
 * [👉](nanzhen_oct/others.md)
-* [1. Coursera course-Biology meets Programming](nanzhen_oct/1.-coursera-course-biology-meets-programming.md)
-* [2. Coursera course-Finding Hidden Messages in DNA \(Bioinformatics I\)](nanzhen_oct/1.-coursera-course-finding-hidden-messages-in-dna-bioinformatics-i.md)
-* [2. Biopython](nanzhen_oct/4.-bilibili-course-shu-ju-ke-shi-hua.md)
-* [previous\_virsorter2](nanzhen_oct/virsorter2.md)
-* [gitbook](nanzhen_oct/5.-gitbook.md)
+* [1. Coursera course-Biology meets Programming](nanzhen_oct/1.-coursera-course-biology-meets-programming/README.md)
+  * [gitbook](nanzhen_oct/1.-coursera-course-biology-meets-programming/5.-gitbook.md)
+  * [previous\_virsorter2](nanzhen_oct/1.-coursera-course-biology-meets-programming/virsorter2.md)
+  * [2. Biopython](nanzhen_oct/1.-coursera-course-biology-meets-programming/4.-bilibili-course-shu-ju-ke-shi-hua.md)
+  * [2. Coursera course-Finding Hidden Messages in DNA \(Bioinformatics I\)](nanzhen_oct/1.-coursera-course-biology-meets-programming/1.-coursera-course-finding-hidden-messages-in-dna-bioinformatics-i.md)
 
