@@ -4,6 +4,8 @@
 
 **Prophages** \(viral genomes integrated into a microbial genome\).
 
+A **bacteriophage** \(also known informally as a phage\) is a virus that infects and replicates within bacteria and archaea. 
+
 **VirSorter2** applies a multi-classifier, expert-guided approach to detect diverse DNA and RNA virus genomes.
 
 VirSorter2 ****can identify viral signal in assembled sequence **\(contigs\) as short as 3kb**, while providing near-perfect identification **\(&gt;95% Recall and 100% Precision\) on contigs of at least 10kb**.
