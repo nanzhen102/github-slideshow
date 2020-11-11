@@ -2,11 +2,11 @@
 
 #### 3.1 Introduction
 
+**Prophages** \(viral genomes integrated into a microbial genome\).
+
 **VirSorter2** applies a multi-classifier, expert-guided approach to detect diverse DNA and RNA virus genomes.
 
-**rophages** \(viral genomes integrated into a microbial genome.
-
-
+VirSorter2 ****can identify viral signal in assembled sequence **\(contigs\) as short as 3kb**, while providing near-perfect identification **\(&gt;95% Recall and 100% Precision\) on contigs of at least 10kb**.
 
 #### **3.2 分析标准** 
 
