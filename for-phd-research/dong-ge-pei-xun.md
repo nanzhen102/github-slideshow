@@ -56,7 +56,17 @@ Step N deactivate the new env
 
  `conda deactivate` 
 
+把文件传到系统里
 
+毛师妹多个数据，东哥给了perl脚本。
+
+师妹自己写了vim XXX.sh，用了for ...循环，然后粘贴最后一句perl脚本的in put ，同样可以运行。相当于把perl转换成了shell脚本。
+
+东哥脚本的最后一句：
+
+```perl
+spades.py -t 36 -k 21,33,55,77 --careful -1 $r1 -2 $r2 -o $out
+```
 
 
 
