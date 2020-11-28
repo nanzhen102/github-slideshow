@@ -1,4 +1,4 @@
-# 东哥培训
+# SPAdes assembly-东哥培训
 
 细菌基因组拼接，毛+王，SPAdes噬菌体
 
