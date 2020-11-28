@@ -112,9 +112,27 @@ in spades env
 
 `assembly-stats contigs.fasta` 
 
+output:
 
+```text
+(spades) [nanzhen@admin out_2]$  assembly-stats contigs.fasta
+stats for contigs.fasta
+sum = 4414476, n = 787, ave = 5609.25, largest = 1090207
+N50 = 803942, n = 3
+N60 = 803942, n = 3
+N70 = 663511, n = 4
+N80 = 663511, n = 4
+N90 = 42727, n = 7
+N100 = 128, n = 787
+N_count = 0
+Gaps = 0
+```
 
-
+> largest大于1M，肯定不是噬菌体，不符合噬菌体的基因大小。
+>
+> 选取contigs中的一个进行NCBI上的BLAST比对，
+>
+> 确实，是宿主污染。实验提取时候的问题。
 
 
 
