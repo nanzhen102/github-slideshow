@@ -41,7 +41,9 @@ def getHtml(url):
 print(getHtml("https://app.gitbook.com/@nanzhen-qiao/s/afns566-coding-project/for-phd-research/2.-genomes-download"))
 ```
 
+移动一个文件夹到另外一个文件夹？
 
+mv，不是rm，rm是删除。。
 
 
 
