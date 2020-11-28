@@ -94,11 +94,21 @@ Step6 run commond lines
 spades.py -t 36 -k 21,33,55,77,99,119,127 --careful -1 /beegfs/home/qnz/spades_test/H13_R1.fq.gz -2 /beegfs/home/qnz/spades_test/H13_R2.fq.gz -o ../out_2
 ```
 
-Step7 check  output files
+Step7 check output files
 
 `contig.fasta` 代表contig组装的结果
 
 `scaffolds.fasta` 代表scaffold的结果
+
+Step8 evaluate the quality of assembly results - assembly-stats software
+
+in spades env
+
+ `conda install -c bioconda assembly-stats` 
+
+
+
+
 
 
 
