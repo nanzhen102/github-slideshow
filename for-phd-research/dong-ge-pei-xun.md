@@ -60,9 +60,7 @@ Step5 run the below command line in Linux
 --careful, Tries to reduce the number of mismatches and short indels
 {% endhint %}
 
-Step N deactivate the new env
-
- `conda deactivate` 
+Step6 upload the files
 
 把文件传到系统里
 
@@ -78,6 +76,8 @@ spades.py -t 36 -k 21,33,55,77 --careful -1 $r1 -2 $r2 -o $out
 
 改了下，直接在Linux中运行
 
+Step7 run commond lines
+
 #### Try-1
 
 ```text
@@ -90,7 +90,9 @@ spades.py -t 36 -k 21,33,55,77 --careful -1 $r1 -2 $r2 -o $out
 spades.py -t 36 -k 21,33,55,77,99,119,127 --careful -1 /beegfs/home/qnz/spades_test/H13_R1.fq.gz -2 /beegfs/home/qnz/spades_test/H13_R2.fq.gz -o ../out_2
 ```
 
+Step N deactivate the new env
 
+ `conda deactivate` 
 
 
 
