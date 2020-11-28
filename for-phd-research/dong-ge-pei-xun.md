@@ -12,6 +12,8 @@ Bankevich A, Nurk S, Antipov D, et al. SPAdes: a new genome assembly algorithm a
 
 R1，R2代表双端测序的结果
 
+SPAdes \(St. Petersburg genome assembler\) is a genome assembly algorithm which was designed for single cell and multi-cells bacterial data sets. However, it might not be suitable for large genomes projects.
+
 Step1 create a new env
 
 `conda create --name spades`
