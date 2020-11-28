@@ -68,7 +68,12 @@ Step N deactivate the new env
 spades.py -t 36 -k 21,33,55,77 --careful -1 $r1 -2 $r2 -o $out
 ```
 
+改了下，直接在Linux中运行
 
+```text
+ spades.py -t 36 -k 21,33,55,77 --careful -1 /beegfs/home/qnz/spades_test/H13_R1.fq.gz -2 /beegfs/home/qnz/spades_test/H13_R2.fq.gz -o ./out
+
+```
 
 #### References
 
