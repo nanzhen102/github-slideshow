@@ -35,7 +35,9 @@ vs2                      /beegfs/home/nanzhen/miniconda3/envs/vs2
 
 ```
 
+Step4 install SPAdes in the new env
 
+`conda install -c bioconda spades`
 
 
 
@@ -51,7 +53,11 @@ Step N deactivate the new env
 
 #### References
 
-{% embed url="https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html" %}
+https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html
+
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3342519/
+
+
 
 
 
