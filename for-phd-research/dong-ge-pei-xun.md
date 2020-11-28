@@ -12,6 +12,33 @@ Bankevich A, Nurk S, Antipov D, et al. SPAdes: a new genome assembly algorithm a
 
 R1，R2代表双端测序的结果
 
+Step1 create a new env
+
+`conda create --name spades`
+
+Step2 activate the new env
+
+`conda activate spades`
+
+Step3 verify the env
+
+`conda env list` 
+
+```text
+(spades) [nanzhen@admin ~]$ conda env list
+# conda environments:
+#
+                         /beegfs/home/nanzhen/VirSorter2/db/conda_envs/1dbde381
+base                     /beegfs/home/nanzhen/miniconda3
+spades                *  /beegfs/home/nanzhen/miniconda3/envs/spades
+vs2                      /beegfs/home/nanzhen/miniconda3/envs/vs2
+
+```
+
+
+
+
+
 
 
 
