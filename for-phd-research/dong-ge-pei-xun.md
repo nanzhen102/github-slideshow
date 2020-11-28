@@ -52,7 +52,13 @@ Step5 run the below command line in Linux
 
 `spades.py -t 36 -k 21,33,55,77 --careful -1 /beegfs/home/qnz/spades_test/H13_R1.fq.gz -2 /beegfs/home/qnz/spades_test/H13_R2.fq.gz -o ./out`
 
+{% hint style="info" %}
+-t, --threads &lt;int&gt; number of threads to use \(default: number of CPUs\)
 
+-k, --kmer &lt;int&gt; k-mer length \(default: 21, must be odd\)
+
+--careful, Tries to reduce the number of mismatches and short indels
+{% endhint %}
 
 Step N deactivate the new env
 
