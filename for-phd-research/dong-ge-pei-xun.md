@@ -100,6 +100,8 @@ Step7 check output files
 
 `scaffolds.fasta` 代表scaffold的结果
 
+如contig.fasta里，会含有多个 contig，&gt;开头，length是长度，cov是深度。
+
 Step8 evaluate the quality of assembly results - assembly-stats software
 
 in spades env
