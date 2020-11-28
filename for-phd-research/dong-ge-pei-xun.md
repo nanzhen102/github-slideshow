@@ -41,5 +41,21 @@ vs2                      /beegfs/home/nanzhen/miniconda3/envs/vs2
 
 
 
+Step N deactivate the new env
+
+ `conda deactivate` 
+
+
+
+
+
+#### References
+
+{% embed url="https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html" %}
+
+
+
+
+
 
 
