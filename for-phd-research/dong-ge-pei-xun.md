@@ -53,11 +53,15 @@ Step5 run the below command line in Linux
 `spades.py -t 36 -k 21,33,55,77 --careful -1 /beegfs/home/qnz/spades_test/H13_R1.fq.gz -2 /beegfs/home/qnz/spades_test/H13_R2.fq.gz -o ./out`
 
 {% hint style="info" %}
+`spades.py`  就是主要的提交脚本
+
 -t, --threads &lt;int&gt; number of threads to use \(default: number of CPUs\)
 
 -k, --kmer &lt;int&gt; k-mer length \(default: 21, must be odd\)
 
 --careful, Tries to reduce the number of mismatches and short indels
+
+`-1` `-2` 分别指定双端测序的R1和R2端序列文件
 {% endhint %}
 
 Step6 upload the files
