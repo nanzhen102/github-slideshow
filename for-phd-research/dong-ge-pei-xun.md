@@ -128,7 +128,7 @@ N_count = 0
 Gaps = 0
 ```
 
-> largest大于1M，肯定不是噬菌体，不符合噬菌体的基因大小。
+> largest大于1M，肯定不是噬菌体，不符合噬菌体的基因大小，常100Kb左右。
 >
 > 选取contigs中的一个进行NCBI上的BLAST比对，
 >
