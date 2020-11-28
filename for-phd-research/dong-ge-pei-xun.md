@@ -106,7 +106,11 @@ Step8 evaluate the quality of assembly results - assembly-stats software
 
 in spades env
 
- `conda install -c bioconda assembly-stats` 
+`conda install -c bioconda assembly-stats` 
+
+`cd /beegfs/home/qnz/spades_test/out_2` 
+
+`assembly-stats contigs.fasta` 
 
 
 
