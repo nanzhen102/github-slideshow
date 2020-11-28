@@ -78,10 +78,21 @@ spades.py -t 36 -k 21,33,55,77 --careful -1 $r1 -2 $r2 -o $out
 
 改了下，直接在Linux中运行
 
+#### Try-1
+
 ```text
  spades.py -t 36 -k 21,33,55,77 --careful -1 /beegfs/home/qnz/spades_test/H13_R1.fq.gz -2 /beegfs/home/qnz/spades_test/H13_R2.fq.gz -o ./out
-
 ```
+
+#### Try-2 \(-k is different\)
+
+```text
+spades.py -t 36 -k 21,33,55,77,99,119,127 --careful -1 /beegfs/home/qnz/spades_test/H13_R1.fq.gz -2 /beegfs/home/qnz/spades_test/H13_R2.fq.gz -o ../out_2
+```
+
+
+
+
 
 #### References
 
