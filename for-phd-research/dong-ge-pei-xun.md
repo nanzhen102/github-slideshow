@@ -48,7 +48,9 @@ Step4 install SPAdes in the new env
 
 `conda install -c bioconda spades`
 
+Step5 run the below command line in Linux
 
+`spades.py -t 36 -k 21,33,55,77 --careful -1 /beegfs/home/qnz/spades_test/H13_R1.fq.gz -2 /beegfs/home/qnz/spades_test/H13_R2.fq.gz -o ./out`
 
 
 
