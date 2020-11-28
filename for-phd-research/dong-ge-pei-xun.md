@@ -85,13 +85,13 @@ Step6 run commond lines
 #### Try-1
 
 ```text
- spades.py -t 36 -k 21,33,55,77 --careful -1 /beegfs/home/qnz/spades_test/H13_R1.fq.gz -2 /beegfs/home/qnz/spades_test/H13_R2.fq.gz -o ../out_1
+ spades.py -t 36 -k 21,33,55,77 --careful -1 /beegfs/home/qnz/spades_test/H13_R1.fq.gz -2 /beegfs/home/qnz/spades_test/H13_R2.fq.gz -o ./out_1
 ```
 
 #### Try-2 \(-k is different\)
 
 ```text
-spades.py -t 36 -k 21,33,55,77,99,119,127 --careful -1 /beegfs/home/qnz/spades_test/H13_R1.fq.gz -2 /beegfs/home/qnz/spades_test/H13_R2.fq.gz -o ../out_2
+spades.py -t 36 -k 21,33,55,77,99,119,127 --careful -1 /beegfs/home/qnz/spades_test/H13_R1.fq.gz -2 /beegfs/home/qnz/spades_test/H13_R2.fq.gz -o ./out_2
 ```
 
 Step7 check output files
@@ -133,6 +133,10 @@ Gaps = 0
 > 选取contigs中的一个进行NCBI上的BLAST比对，
 >
 > 确实，是宿主污染。实验提取时候的问题。
+
+
+
+最长或者次长的那条挑出来，看是否能成环。
 
 
 
