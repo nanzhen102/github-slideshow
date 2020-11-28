@@ -27,6 +27,7 @@
   * [2.2 Youtube-HTTP requests to import data from the web](for-phd-research/2.-genomes-download/4.-youtube-http-requests-to-import-data-from-the-web.md)
 * [3. 注释](for-phd-research/3.-zhu-shi.md)
 * [\*Notes](for-phd-research/python-error.md)
+* [东哥培训](for-phd-research/dong-ge-pei-xun.md)
 
 ## For nanzhen <a id="nanzhen_oct"></a>
 
