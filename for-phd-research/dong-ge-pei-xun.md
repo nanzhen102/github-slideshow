@@ -6,7 +6,7 @@
 
 需要改参数
 
-这是单菌，要改的perl的是宏基因组
+这是单菌，娜姐给的要改的perl的是宏基因组
 
 Bankevich A, Nurk S, Antipov D, et al. SPAdes: a new genome assembly algorithm and its applications to single-cell sequencing\[J\]. Journal of computational biology, 2012, 19\(5\): 455-477.
 
