@@ -191,6 +191,8 @@ Step11 the longest contig - if it is a circular DNA
 
 `python --version` to check the python version in the new env
 
+`conda list` to know what packages are installed in a Conda environment
+
 `conda install -c bioconda circle-map` to install circle-map
 
 文件为什么都保存到默认文件夹里的。。。可以提前设置保存在某一个文件夹里吗
