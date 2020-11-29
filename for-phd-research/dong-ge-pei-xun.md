@@ -293,11 +293,17 @@ Google the error, perhaps it is due to the biopython version, it should be 1.68 
 
 `sbatch` the job again, the job \# is  61063
 
-`vim slurm-61063.out` to monitor the running job
+* if use vim to monitor the running job
+
+`vim slurm-61063.out` 
 
 `shift` + `g` to jump to the final line of a vim file
 
+* if use `tail command` to monitor the running job 
 
+`tail -f slurm-61063.out` to conduct a real-time monitor
+
+`tail -100f slurm-61063.out`  to conduct a real-time monitor and show the final 100 lines
 
 
 
