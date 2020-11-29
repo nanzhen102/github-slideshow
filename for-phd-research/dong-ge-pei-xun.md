@@ -199,13 +199,48 @@ Step11 the longest contig - if it is a circular DNA
 
 `conda install -c bioconda samtools` to install samtools package
 
-follow this tutorial:
+follow this tutorial and **sbatch a job!!!!!** ❗ ****❗ ****❗ ****❗ ****❗ ****
 
 {% embed url="https://github.com/iprada/Circle-Map/wiki/Tutorial:-Identification-of-circular-DNA-using-Circle-Map-Realign" %}
 
+`vim circle-map_nanzhen.sh` 
+
+type the following command lines
+
+```text
+#!/bin/sh
+#SBATCH -J circlemap_nanzhen
+#SBATCH -c 30
+#SBATCH -p normal
 
 
+# Step 1: preparing and downloading the data
+wget https://raw.githubusercontent.com/iprada/Circle-Map/master/tutorial/unknown_circle_reads_1.fastq
+wget https://raw.githubusercontent.com/iprada/Circle-Map/master/tutorial/unknown_circle_reads_2.fastq
+wget http://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/hg38.fa.gz
+gunzip -d hg38.fa.gz
+bwa index hg38.fa
+samtools faidx hg38.fa
 
+# Step 2: Alignment of the reads to the reference genome
+bwa mem -q hg38.fa unknown_circle_reads_1.fastq unknown_circle_reads_2.fastq > unknown_circle.sam
+
+# Step 3: Preparing the files for Circle-Map
+samtools sort -n -o qname_unknown_circle.bam unknown_circle.sam
+samtools sort -o sorted_unknown_circle.bam unknown_circle.sam
+Circle-Map ReadExtractor -i qname_unknown_circle.bam -o circular_read_candidates.bam
+samtools sort -o sort_circular_read_candidates.bam circular_read_candidates.bam
+samtools index sort_circular_read_candidates.bam
+samtools index sorted_unknown_circle.bam
+
+# Step 4: Detecting the circular DNA
+Circle-Map Realign -i sort_circular_read_candidates.bam -qbam qname_unknown_circle.bam -sbam sorted_unknown_circle.bam -fasta hg38.fa -o my_unknown_circle.bed
+
+```
+
+`sbatch circle-map_nanzhen.sh` 
+
+为什么所有的都在PD排队？？可以通过调节`-c` 来插队吗？smp还有挺多核心，normal最多的只有6个核心了。
 
 
 
