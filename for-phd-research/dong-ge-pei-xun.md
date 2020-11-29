@@ -299,7 +299,7 @@ Google the error, perhaps it is due to the biopython version, it should be 1.68 
 
 `shift` + `g` to jump to the final line of a vim file
 
-* if use `tail command` to monitor the running job 
+* if use `tail` command to monitor the running job 
 
 `tail -f slurm-61063.out` to conduct a real-time monitor
 
