@@ -195,6 +195,16 @@ Step11 the longest contig - if it is a circular DNA
 
 文件为什么都保存到默认文件夹里的。。。可以提前设置保存在某一个文件夹里吗
 
+`conda install -c bioconda bwa` to install bwq package
+
+`conda install -c bioconda samtools` to install samtools package
+
+
+
+
+
+
+
 
 
 Step13 the second and third long contigs - BLAST to see what it belongs to
