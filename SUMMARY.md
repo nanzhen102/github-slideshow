@@ -32,7 +32,7 @@
 ## For nanzhen <a id="nanzhen_oct"></a>
 
 * [👉](nanzhen_oct/others.md)
-* [4. R数据科学](nanzhen_oct/4.rshu-ju-ke-xue.md)
+* [4. R](nanzhen_oct/4.rshu-ju-ke-xue.md)
 * [3. Linux-罗静初-PKU](nanzhen_oct/3.-linux-luo-jing-chu-pku.md)
 * [2. BILIBILI鲮鱼不会飞+ 关注稿件：20](nanzhen_oct/bilibili-ling-yu-bu-hui-fei-+-guan-zhu-gao-jian-20.md)
 * [1. Coursera course-Biology meets Programming](nanzhen_oct/1.-coursera-course-biology-meets-programming/README.md)
