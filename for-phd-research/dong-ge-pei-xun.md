@@ -240,7 +240,9 @@ Circle-Map Realign -i sort_circular_read_candidates.bam -qbam qname_unknown_circ
 
 `sbatch circle-map_nanzhen.sh` 
 
-为什么所有的都在PD排队？？可以通过调节`-c` 来插队吗？smp还有挺多盒，normal最多的只有6个了。可以的，把盒调成4个试试。
+为什么所有的都在PD排队？？可以通过调节`-c` 来插队吗？smp还有挺多盒，normal最多的只有6个了。可以的，把盒`-c` 调成5个试试。插队成功！
+
+
 
 
 
