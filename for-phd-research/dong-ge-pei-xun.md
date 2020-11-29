@@ -233,7 +233,13 @@ https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-019-3160-3
 
 
 
+{% hint style="info" %}
+Geneious Prime software 
 
+彭师妹从文献中发现这个软件，很快就得到能否成环的结果。
+
+功能极其强大，但是要求的内存也多。但是，对于此phage数据，即使随机选择序列，也组装得到类似长度的contig，说明，没有比较测序深度这么深。
+{% endhint %}
 
 
 
