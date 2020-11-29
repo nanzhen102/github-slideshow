@@ -1,3 +1,9 @@
+---
+description: >-
+  Use SLURM to run a job. Submit a job in a certain Conda env that contains
+  every software you need.
+---
+
 # SPAdes assembly-a phage genome-circle
 
 细菌基因组拼接，毛+王，SPAdes噬菌体
@@ -245,7 +251,9 @@ Circle-Map Realign -i sort_circular_read_candidates.bam -qbam qname_unknown_circ
 `sbatch circle-map_nanzhen.sh` 
 
 {% hint style="info" %}
-为什么所有的都在PD排队？？可以通过调节`-c` 来插队吗？smp还有挺多盒，normal最多的只有6个了。可以的，把盒`-c` 调成5个试试。插队成功！
+为什么所有的都在PD排队？？可以通过调节`-c` 来插队吗？smp还有挺多盒，normal最多的只有6个了。
+
+可以的，把盒`-c` 调成5个试试。插队成功！
 
 ```text
              60197    normal 20140308      lxd  R      15:39      1 node7 
@@ -254,7 +262,7 @@ Circle-Map Realign -i sort_circular_read_candidates.bam -qbam qname_unknown_circ
              60200    normal 20131005      lxd  R       6:45      1 node6 
              60201    normal 20131129      lxd  R       4:28      1 node8 
              60202    normal 20140306      lxd  R       2:34      1 node6 
-             61058    normal circlema      qnz  R       0:06      1 node8 
+             61059    normal circlema      qnz  R       0:06      1 node8 
 ```
 {% endhint %}
 
@@ -266,9 +274,9 @@ Circle-Map Realign -i sort_circular_read_candidates.bam -qbam qname_unknown_circ
 (base) [qnz@admin ~]$ sacct -j 61058 --format=JobID,JobName,MaxRSS,Elapsed
        JobID    JobName     MaxRSS    Elapsed 
 ------------ ---------- ---------- ---------- 
-61058        circlemap+              00:41:05 
-61058.batch       batch       944K   00:41:05 
-61058.extern     extern          0   00:41:05 
+61059        circlemap+              00:41:05 
+61059.batch       batch       944K   00:41:05 
+61059.extern     extern          0   00:41:05 
 ```
 
 
