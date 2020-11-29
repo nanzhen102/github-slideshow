@@ -176,7 +176,7 @@ a package in python
 {% file src="../.gitbook/assets/contigs.fasta" caption="contigs.fasta" %}
 {% endtab %}
 
-{% tab title="result file" %}
+{% tab title="output file" %}
 {% file src="../.gitbook/assets/contigs\_longest \(4\).fasta" caption="contigs\_longest.fasta" %}
 {% endtab %}
 {% endtabs %}
