@@ -203,10 +203,6 @@ Step13 the second and third long contigs - BLAST to see what it belongs to
 
 
 
-Step N deactivate the new env
-
- `conda deactivate` 
-
 
 
 #### References
@@ -214,6 +210,8 @@ Step N deactivate the new env
 https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html
 
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3342519/
+
+https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-019-3160-3
 
 
 
