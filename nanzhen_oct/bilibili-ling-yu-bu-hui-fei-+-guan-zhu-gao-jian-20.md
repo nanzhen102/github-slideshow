@@ -24,6 +24,12 @@ bio is more important, info is a tool.
 
 Linux, coding, statistics, and bio.
 
+Linux, `cat vim less` , `cp mv` 
+
+ 
+
+#### the less command in Linux?
+
 
 
 
