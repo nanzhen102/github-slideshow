@@ -22,7 +22,7 @@ bio is more important, info is a tool.
 
 ### how to start bioinformatics?
 
-Linux, coding, statistics, and bio.
+Linux, coding, statistics \(difficult but important\), and bio.
 
 Linux, `cat vim less` , `cp mv` 
 
