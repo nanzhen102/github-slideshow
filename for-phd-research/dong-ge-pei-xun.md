@@ -268,7 +268,7 @@ Circle-Map Realign -i sort_circular_read_candidates.bam -qbam qname_unknown_circ
 
  `squeue -u qnz` to know all current jobs for a User
 
-`sacct -j 61058 --format=JobID,JobName,MaxRSS,Elapsed` to get additional information of a completed job. This includes run time, memory used, etc. 
+`sacct -j 61059 --format=JobID,JobName,MaxRSS,Elapsed` to get additional information of a completed job. This includes run time, memory used, etc. 
 
 ```text
 (base) [qnz@admin ~]$ sacct -j 61058 --format=JobID,JobName,MaxRSS,Elapsed
@@ -278,6 +278,22 @@ Circle-Map Realign -i sort_circular_read_candidates.bam -qbam qname_unknown_circ
 61059.batch       batch       944K   00:41:05 
 61059.extern     extern          0   00:41:05 
 ```
+
+Step12 Error - check Errors
+
+'ImportError: Bio.Alphabet has been removed from Biopython. In many cases, the alphabet can simply be ignored and removed from scripts. In a few cases, you may need to specify the \`\`molecule\_type\`\` as an annotation on a SeqRecord for your script to work correctly. Please see https://biopython.org/wiki/Alphabet for more information.'
+
+Google the error, perhaps it is due to the biopoython version, it should be 1.68 rather than 1.78.
+
+`conda list` in the new env to check the version of python and biopython
+
+`conda install python=2` to install python2, no need to delete python3
+
+`conda install -c montilab biopython=1.68` to install biopython1.68
+
+`sbatch` the job again, the job \# is  61063. 
+
+
 
 
 
