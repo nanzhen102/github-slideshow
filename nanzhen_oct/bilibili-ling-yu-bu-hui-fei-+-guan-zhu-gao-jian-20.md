@@ -32,6 +32,8 @@ Python, script, Shell, R
 
 sequencing, 
 
+一般，双端测序，
+
 ![](../.gitbook/assets/ping-mu-kuai-zhao-20201130-shang-wu-12.46.43.png)
 
 
