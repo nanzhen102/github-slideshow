@@ -32,7 +32,7 @@ Python, script, Shell, R
 
 sequencing, 
 
-一般，双端测序，
+一般，双端测序，如一个600的fragment，左边测150read，右边150read，合在一起，虽然有300没有测，但还是可以确定一个fragment。
 
 ![](../.gitbook/assets/ping-mu-kuai-zhao-20201130-shang-wu-12.46.43.png)
 
