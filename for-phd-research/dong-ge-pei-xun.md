@@ -321,13 +321,13 @@ Yangjie Li shared with me the solution
 
 `ll` 
 
-`cp libcrypto.so.1.1 libcrypto.so.1.0.0` 
+`cp libcrypto.so.1.1 libcrypto.so.1.0.0` 之前师兄们遇到过samtools同样的问题，是因为lib名字导致的。所以，copy一下就可以。
 
 `sbatch` the job again, the job \# is  61067
 
+**ONE HOUR LATER........**
 
-
-
+\*\*\*\*
 
 
 
