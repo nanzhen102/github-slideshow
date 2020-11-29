@@ -199,7 +199,7 @@ Step11 the longest contig - if it is a circular DNA
 
 `conda install -c bioconda samtools` to install samtools package
 
-follow this tutorial and **sbatch a job!!!!!** ❗ ****❗ ****❗ ****❗ ****❗ ****
+follow this tutorial and **use SLURM to run a job!!!!!** ❗ ****❗ ****❗ ****❗ ****❗ ****
 
 {% embed url="https://github.com/iprada/Circle-Map/wiki/Tutorial:-Identification-of-circular-DNA-using-Circle-Map-Realign" %}
 
@@ -254,7 +254,18 @@ Circle-Map Realign -i sort_circular_read_candidates.bam -qbam qname_unknown_circ
 ```
 {% endhint %}
 
+ `squeue -u qnz` to know all current jobs for a User
 
+`sacct -j 61058 --format=JobID,JobName,MaxRSS,Elapsed` to get additional information of a completed job. This includes run time, memory used, etc. 
+
+```text
+(base) [qnz@admin ~]$ sacct -j 61058 --format=JobID,JobName,MaxRSS,Elapsed
+       JobID    JobName     MaxRSS    Elapsed 
+------------ ---------- ---------- ---------- 
+61058        circlemap+              00:41:05 
+61058.batch       batch       944K   00:41:05 
+61058.extern     extern          0   00:41:05 
+```
 
 
 
