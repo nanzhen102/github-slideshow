@@ -289,7 +289,7 @@ Google the error, perhaps it is due to the biopython version, it should be 1.68 
 
 `conda install python=2` to install python2, no need to delete python3
 
-`conda install -c montilab biopython=1.68` to install biopython1.68
+`conda install -c montilab biopython=1.68` to install biopython1.68 \(search the version installation inside the conda website rather than google\)
 
 `sbatch` the job again, the job \# is  61063
 
