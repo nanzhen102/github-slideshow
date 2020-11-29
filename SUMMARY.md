@@ -32,6 +32,7 @@
 ## For nanzhen <a id="nanzhen_oct"></a>
 
 * [👉](nanzhen_oct/others.md)
+* [5. Youtube-machine learning in Genomics](nanzhen_oct/5.-youtube-machine-learning-in-genomics.md)
 * [4. R](nanzhen_oct/4.rshu-ju-ke-xue.md)
 * [3. Linux-罗静初-PKU](nanzhen_oct/3.-linux-luo-jing-chu-pku.md)
 * [2. BILIBILI鲮鱼不会飞+ 关注稿件：20](nanzhen_oct/bilibili-ling-yu-bu-hui-fei-+-guan-zhu-gao-jian-20.md)
