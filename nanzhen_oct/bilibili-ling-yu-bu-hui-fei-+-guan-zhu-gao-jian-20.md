@@ -22,7 +22,9 @@ bio is more important, info is a tool.
 
 ### how to start bioinformatics?
 
-make sure you know Linux, coding, statistics, and bio.
+Linux, coding, statistics, and bio.
+
+
 
 
 
