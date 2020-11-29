@@ -28,6 +28,8 @@ Linux, `cat vim less` , `cp mv`
 
 Python, script, Shell, R
 
+statistics + R = 95%
+
 ### what basic bio info should we know?
 
 sequencing, 
