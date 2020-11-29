@@ -220,7 +220,7 @@ type the following command lines
 ```text
 #!/bin/sh
 #SBATCH -J circlemap_nanzhen
-#SBATCH -c 30
+#SBATCH -c 5
 #SBATCH -p normal
 
 
@@ -253,7 +253,7 @@ Circle-Map Realign -i sort_circular_read_candidates.bam -qbam qname_unknown_circ
 {% hint style="info" %}
 为什么所有的都在PD排队？？可以通过调节`-c` 来插队吗？smp还有挺多盒，normal最多的只有6个了。
 
-可以的，把盒`-c` 调成5个试试。插队成功！
+可以的，原有`-c` 为30，把盒`-c` 调成5个试试。插队成功！
 
 ```text
              60197    normal 20140308      lxd  R      15:39      1 node7 
@@ -323,7 +323,7 @@ Yangjie Li shared with me the solution
 
 `cp libcrypto.so.1.1 libcrypto.so.1.0.0` 
 
-`sbatch` the job again, the job \# is  61066
+`sbatch` the job again, the job \# is  61067
 
 
 
