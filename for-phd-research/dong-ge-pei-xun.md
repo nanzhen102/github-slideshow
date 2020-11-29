@@ -185,7 +185,7 @@ Step11 the longest contig - if it is a circular DNA
 
 in spades env
 
-`conda install -c bioconda circle-map` 
+`conda install -c bioconda circle-map` （for python 3.6, but my python version is 3.9）
 
 or
 
