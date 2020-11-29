@@ -40,7 +40,13 @@ FPKM= 1/2 FPKM，因为两条reads确定一个fragment
 
 ![](../.gitbook/assets/ping-mu-kuai-zhao-20201130-shang-wu-12.46.43.png)
 
+### how long it will takes?
 
+one year - a technician
+
+two years and patience - expert
+
+time, gift, hardwork - more
 
 
 
