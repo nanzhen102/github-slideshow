@@ -2,7 +2,7 @@
 
 ## PKU
 
-## Illumina sequencing
+## 1. Illumina sequencing
 
 ### before Illumina sequencing
 
@@ -14,11 +14,15 @@ is Illumina sequencing.
 
 ### bp
 
-## Bioinformatics
+## 2. Bioinformatics
 
 ### is bio or info more important?
 
-bio is more important.
+bio is more important, info is a tool.
+
+### how to start bioinformatics?
+
+make sure you know Linux, coding, statistics, and bio.
 
 
 
