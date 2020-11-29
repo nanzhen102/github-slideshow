@@ -211,6 +211,8 @@ follow this tutorial:
 
 
 
+
+
 Step13 the second and third long contigs - BLAST to see what it belongs to
 
 
