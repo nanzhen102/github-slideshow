@@ -183,13 +183,19 @@ a package in python
 
 Step11 the longest contig - if it is a circular DNA
 
-in spades env
+\(my python version is 3.8, create a new env to change it to 3.6）
 
-`conda install -c bioconda circle-map` （for python 3.6, but my python version is 3.9）
+`conda create -n circle-map python=3.6` to create a new env
 
-or
+`conda activate circle-map` to activate the new env
 
- `python -m pip install Circle-Map` 
+`python --version` to check the python version in the new env
+
+`conda install -c bioconda circle-map` to install circle -map
+
+
+
+
 
 Step13 the second and third long contigs - BLAST to see what it belongs to
 
