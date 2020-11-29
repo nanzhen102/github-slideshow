@@ -28,7 +28,15 @@ Linux, `cat vim less` , `cp mv`
 
 Python, script, Shell, R
 
- 
+### what basic bio info should we know?
+
+sequencing, 
+
+![](../.gitbook/assets/ping-mu-kuai-zhao-20201130-shang-wu-12.46.43.png)
+
+
+
+
 
 #### the less command in Linux?
 
