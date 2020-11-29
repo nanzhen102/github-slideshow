@@ -42,13 +42,21 @@ FPKM= 1/2 FPKM，因为两条reads确定一个fragment
 
 ![](../.gitbook/assets/ping-mu-kuai-zhao-20201130-shang-wu-12.46.43.png)
 
-### how long it will takes?
+### how long it will take?
 
 one year - a technician
 
 two years and patience - expert
 
 time, gift, hardwork - more
+
+### what's the advanced bioinformatics ability?
+
+![](../.gitbook/assets/ping-mu-kuai-zhao-20201130-shang-wu-1.20.41.png)
+
+
+
+
 
 
 
