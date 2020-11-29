@@ -1,20 +1,6 @@
 # 2. BILIBILI鲮鱼不会飞+ 关注稿件：20
 
-## PKU
-
-## 1. Illumina sequencing
-
-### before Illumina sequencing, it is?
-
-it's Sanger sequencing.
-
-### currently, Next Generation Sequencing is?
-
-is Illumina sequencing.
-
-### bp
-
-## 2. Bioinformatics
+## Bioinformatics
 
 ### is bio or info more important?
 
