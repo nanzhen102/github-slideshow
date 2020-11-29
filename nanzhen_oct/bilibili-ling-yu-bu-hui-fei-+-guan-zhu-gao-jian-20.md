@@ -2,15 +2,23 @@
 
 ## PKU
 
-## before Illumina sequencing
+## Illumina sequencing
+
+### before Illumina sequencing
 
 it's Sanger sequencing.
 
-## currently, Next Generation Sequencing 
+### currently, Next Generation Sequencing 
 
 is Illumina sequencing.
 
-## bp
+### bp
+
+## Bioinformatics
+
+### is bio or info more important?
+
+bio is more important.
 
 
 
