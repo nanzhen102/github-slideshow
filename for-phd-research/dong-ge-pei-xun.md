@@ -281,7 +281,7 @@ Circle-Map Realign -i sort_circular_read_candidates.bam -qbam qname_unknown_circ
 
 Step12 Error - check Errors
 
-in a output file,  'ImportError: Bio.Alphabet has been removed from Biopython. In many cases, the alphabet can simply be ignored and removed from scripts. In a few cases, you may need to specify the \`\`molecule\_type\`\` as an annotation on a SeqRecord for your script to work correctly. Please see https://biopython.org/wiki/Alphabet for more information.'
+in an output file,  'ImportError: Bio.Alphabet has been removed from Biopython. In many cases, the alphabet can simply be ignored and removed from scripts. In a few cases, you may need to specify the \`\`molecule\_type\`\` as an annotation on a SeqRecord for your script to work correctly. Please see https://biopython.org/wiki/Alphabet for more information.'
 
 Google the error, perhaps it is due to the biopoython version, it should be 1.68 rather than 1.78.
 
