@@ -138,7 +138,58 @@ Step9 check the length of each contig
 
 `grep ">" contigs.fasta | less` 
 
-Step10 
+`q` 
+
+Step10 the longest contig - write a script to extract it
+
+{% tabs %}
+{% tab title="Method1" %}
+```python
+seq = open("/Users/nanzhen/Desktop/contigs.fasta")
+seq_longestcontig = open("/Users/nanzhen/Desktop/contigs_longest.fasta", 'w')
+
+str = ''
+
+for line in seq:
+	if line[0] == ">" and str =="":
+		line_1 = line
+	elif line[0] != ">":
+		str = str + line
+	elif line[0] == ">" and str != "":
+		if "160931" in line_1:
+			seq_longestcontig.write(line_1 + str)
+		line_1 = line
+		str = ""
+
+seq.close()
+seq_longestcontig.close()
+```
+{% endtab %}
+
+{% tab title="Method2-simple" %}
+use biopython
+
+a package in python
+{% endtab %}
+
+{% tab title="files" %}
+{% file src="../.gitbook/assets/contigs.fasta" caption="contigs.fasta" %}
+{% endtab %}
+
+{% tab title="result file" %}
+{% file src="../.gitbook/assets/contigs\_longest \(4\).fasta" caption="contigs\_longest.fasta" %}
+{% endtab %}
+{% endtabs %}
+
+Step11 the longest contig - if it can be circled
+
+
+
+Step13 the second and third long contigs - BLAST to see what it belongs to
+
+
+
+
 
 
 
