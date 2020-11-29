@@ -191,7 +191,7 @@ Step11 the longest contig - if it is a circular DNA
 
 `python --version` to check the python version in the new env
 
-`conda install -c bioconda circle-map` to install circle -map
+`conda install -c bioconda circle-map` to install circle-map
 
 
 
