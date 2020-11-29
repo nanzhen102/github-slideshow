@@ -4,5 +4,7 @@ PKU
 
 before Illumina sequencing, it's Sanger sequencing.
 
+currently, Next Generation Sequencing is Illumina sequencing.
+
 
 
