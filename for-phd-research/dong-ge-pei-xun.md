@@ -305,6 +305,8 @@ Google the error, perhaps it is due to the biopython version, it should be 1.68 
 
 `tail -100f slurm-61063.out`  to conduct a real-time monitor and show the final 100 lines
 
+`ctrl` + `C` to quit the real-time monitor
+
 
 
 
