@@ -291,7 +291,9 @@ Google the error, perhaps it is due to the biopoython version, it should be 1.68
 
 `conda install -c montilab biopython=1.68` to install biopython1.68
 
-`sbatch` the job again, the job \# is  61063. 
+`sbatch` the job again, the job \# is  61063
+
+
 
 
 
