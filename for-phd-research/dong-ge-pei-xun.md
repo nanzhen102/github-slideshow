@@ -134,6 +134,12 @@ Gaps = 0
 >
 > 确实，是宿主污染。实验提取时候的问题。
 
+Step9 check the length of each contig
+
+`grep ">" contigs.fasta | less` 
+
+Step10 
+
 
 
 最长或者次长的那条挑出来，看是否能成环。
