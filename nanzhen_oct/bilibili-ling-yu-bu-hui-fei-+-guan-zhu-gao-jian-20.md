@@ -36,6 +36,8 @@ sequencing,
 
 所以，FPKM，RPKM的区别是？
 
+FPKM= 1/2 FPKM，因为两条reads确定一个fragment
+
 ![](../.gitbook/assets/ping-mu-kuai-zhao-20201130-shang-wu-12.46.43.png)
 
 
