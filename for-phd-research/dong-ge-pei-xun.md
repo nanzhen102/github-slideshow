@@ -279,7 +279,7 @@ Circle-Map Realign -i sort_circular_read_candidates.bam -qbam qname_unknown_circ
 61059.extern     extern          0   00:41:05 
 ```
 
-Step12 Error - check Errors
+**Step12 Error1 - check Errors**
 
 in an `slurm-job#.out` file,  'ImportError: Bio.Alphabet has been removed from Biopython. In many cases, the alphabet can simply be ignored and removed from scripts. In a few cases, you may need to specify the \`\`molecule\_type\`\` as an annotation on a SeqRecord for your script to work correctly. Please see https://biopython.org/wiki/Alphabet for more information.'
 
@@ -306,6 +306,30 @@ Google the error, perhaps it is due to the biopython version, it should be 1.68 
 `tail -100f slurm-61063.out`  to conduct a real-time monitor and show the final 100 lines
 
 `ctrl` + `C` to quit the real-time monitor
+
+**Step13 Error2 - check Errors**
+
+in an `slurm-job#.out` file,  'samtools: error while loading shared libraries: libcrypto.so.1.0.0: cannot open shared object file: No such file or directory'
+
+Yangjie Li shared with me the solution
+
+`cd ~/miniconda3/` 
+
+`cd ~/miniconda3/envs/` 
+
+`cd ~/miniconda3/envs/spades/` 
+
+`ll` 
+
+`cp libcrypto.so.1.1 libcrypto.so.1.0.0` 
+
+`sbatch` the job again, the job \# is  61066
+
+
+
+
+
+
 
 
 
