@@ -32,6 +32,8 @@ Python, script, Shell, R
 
 #### the less command in Linux?
 
+#### how to code in bioinformatics? where to find the practice?
+
 
 
 
