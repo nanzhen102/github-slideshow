@@ -181,7 +181,11 @@ a package in python
 {% endtab %}
 {% endtabs %}
 
-Step11 the longest contig - if it can be circled
+Step11 the longest contig - if it is a circular DNA
+
+in spades env
+
+`conda install -c bioconda circle-map` 
 
 
 
