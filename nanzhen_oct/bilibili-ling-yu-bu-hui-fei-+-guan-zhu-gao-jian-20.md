@@ -4,11 +4,11 @@
 
 ## 1. Illumina sequencing
 
-### before Illumina sequencing
+### before Illumina sequencing, it is?
 
 it's Sanger sequencing.
 
-### currently, Next Generation Sequencing 
+### currently, Next Generation Sequencing is?
 
 is Illumina sequencing.
 
@@ -25,6 +25,8 @@ bio is more important, info is a tool.
 Linux, coding, statistics, and bio.
 
 Linux, `cat vim less` , `cp mv` 
+
+Python, script, Shell, R
 
  
 
