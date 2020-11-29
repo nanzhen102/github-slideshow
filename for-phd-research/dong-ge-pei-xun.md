@@ -199,6 +199,10 @@ Step11 the longest contig - if it is a circular DNA
 
 `conda install -c bioconda samtools` to install samtools package
 
+follow this tutorial:
+
+{% embed url="https://github.com/iprada/Circle-Map/wiki/Tutorial:-Identification-of-circular-DNA-using-Circle-Map-Realign" %}
+
 
 
 
