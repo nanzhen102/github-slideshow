@@ -381,6 +381,16 @@ gzip: hg38.fa already exists;	not overwritten
 /var/spool/slurmd/job61069/slurm_script:行22: samtools: 未找到命令
 ```
 
+install `bwa` 
+
+
+
+install `samtools` 
+
+
+
+
+
 `vim step2_circle-map.sh` 
 
 ```text
