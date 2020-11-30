@@ -444,7 +444,7 @@ samtools index: failed to open "sort_circular_read_candidates.bam": No such file
 
 `conda list` to check Circle-Map, no
 
-`conda install python=2` to install python2
+`conda install python=3.6` to install python3.6, the current python version is 3.9
 
 `conda update -n base -c defaults conda` to update conda
 
