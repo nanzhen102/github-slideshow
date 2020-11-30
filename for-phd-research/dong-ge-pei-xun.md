@@ -1,4 +1,4 @@
-# SPAdes assembly-a phage genome-circle
+# 4 SPAdes assembly-a phage genome-circle
 
 细菌基因组拼接，毛+王，SPAdes噬菌体
 
@@ -340,7 +340,9 @@ Yangjie Li shared with me the solution
 理解
 {% endhint %}
 
-Step14 
+Step14 run the tutorial step by step to find where the error is
+
+
 
 
 
