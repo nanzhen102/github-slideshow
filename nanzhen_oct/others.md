@@ -41,6 +41,8 @@
 > 按一篇文章走完一遍，把图重复一下，比什么都强。
 >
 > 记住：Use SLURM to run a job. Submit a job in a certain Conda env that contains every software you need.
+>
+> 初始阶段，多步骤分开跑，方便找出错误。
 
 
 
