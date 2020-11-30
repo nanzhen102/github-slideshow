@@ -545,7 +545,21 @@ in `step3-python2-test` env
 
 `conda install -c bioconda samtools`
 
-`conda install -c anaconda biopython` to install biopython of a new version 
+`conda install -c anaconda biopython` , sbatch failed.
+
+`conda unistall biopython` to remove biopython
+
+`conda install -c montilab biopython=1.68` to install another biopython version to see if the ImportError of Bio.Alphabet could be solved. SOLVED!
+
+However, there is another error about samtools.
+
+
+
+
+
+
+
+
 
 sbatch step3, 
 
