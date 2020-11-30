@@ -373,6 +373,14 @@ bwa index hg38.fa
 samtools faidx hg38.fa
 ```
 
+```text
+2020-11-30 13:04:05 (484 KB/s) - 已保存 “hg38.fa.gz.4” [983659424/983659424])
+
+gzip: hg38.fa already exists;	not overwritten
+/var/spool/slurmd/job61069/slurm_script:行19: bwa: 未找到命令
+/var/spool/slurmd/job61069/slurm_script:行22: samtools: 未找到命令
+```
+
 `vim step2_circle-map.sh` 
 
 ```text
