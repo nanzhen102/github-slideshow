@@ -387,6 +387,10 @@ install `bwa`
 
 install `samtools` 
 
+`conda install -c bioconda samtools` 
+
+
+
 
 
 
