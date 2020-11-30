@@ -344,7 +344,7 @@ Step14 run the tutorial step by step to find where the error is
 
 in `spades` env
 
-`vim step1_circle-map.sh step2_circle-map.sh step3_circle-map.sh step4_circle-map.sh`
+`vim step1_circle-map.sh` 
 
 `sbatch step1_circle-map.sh` JobID 61069
 
@@ -373,7 +373,17 @@ bwa index hg38.fa
 samtools faidx hg38.fa
 ```
 
+`vim step2_circle-map.sh` 
 
+
+
+
+
+`vim step3_circle-map.sh` 
+
+
+
+`vim step4_circle-map.sh`
 
 
 
