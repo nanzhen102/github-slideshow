@@ -342,7 +342,11 @@ Yangjie Li shared with me the solution
 
 Step14 run the tutorial step by step to find where the error is
 
+in `spades` env
 
+`vim step1_circle-map.sh`
+
+ 
 
 
 
