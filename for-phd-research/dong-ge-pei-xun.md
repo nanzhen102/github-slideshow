@@ -448,7 +448,7 @@ samtools index: failed to open "sort_circular_read_candidates.bam": No such file
 {% tab title="method1" %}
 `conda install python=3.6` 
 
-`conda list` , still python 3.7
+`conda list` to check to installation
 {% endtab %}
 
 {% tab title="method2" %}
@@ -461,8 +461,6 @@ samtools index: failed to open "sort_circular_read_candidates.bam": No such file
 
 {% endtab %}
 {% endtabs %}
-
-`conda install python=3.6` 
 
 `conda update -n base -c defaults conda` to update conda
 
