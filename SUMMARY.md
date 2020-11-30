@@ -32,6 +32,7 @@
 ## For nanzhen <a id="nanzhen_oct"></a>
 
 * [👉](nanzhen_oct/others.md)
+* [7. Holland Computing Center-bioinformatics tools](nanzhen_oct/7.-holland-computing-center-bioinformatics-tools.md)
 * [6. github-analysis of RNA-seq and ChIP-seq data](nanzhen_oct/6.-github-analysis-of-rna-seq-and-chip-seq-data.md)
 * [5. Youtube-machine learning in Genomics](nanzhen_oct/5.-youtube-machine-learning-in-genomics.md)
 * [4. R](nanzhen_oct/4.rshu-ju-ke-xue.md)
