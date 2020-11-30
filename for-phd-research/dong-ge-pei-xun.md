@@ -334,9 +334,13 @@ Yangjie Li shared with me the solution
 
 `sbatch` the job again, the job \# is  61068
 
+{% hint style="info" %}
+一步一步跑，找错误
 
+理解
+{% endhint %}
 
-
+Step14 
 
 
 
