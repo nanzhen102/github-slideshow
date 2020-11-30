@@ -282,7 +282,35 @@ in an `slurm-job#.out` file,
 
 'ImportError: Bio.Alphabet has been removed from Biopython. In many cases, the alphabet can simply be ignored and removed from scripts. In a few cases, you may need to specify the ``molecule_type`` as an annotation on a SeqRecord for your script to work correctly. Please see https://biopython.org/wiki/Alphabet for more information.'
 Google the error, perhaps it is due to the biopython version, it should be 1.68 rather than 1.78.
+
+# wrong solution!!!
 ```
+
+{% hint style="info" %}
+## the right steps to solve this error should be:
+
+### 1. read the error notion
+
+### 2. it's due to a script of the software, so, deal with it
+
+### 3.  remove the import module of alphabet from the script
+
+`vim /beegfs/home/qnz/miniconda3/envs/circle-map-dongge/lib/python3.7/site-packages/circlemap/simulations.py`
+
+### 4. end!
+{% endhint %}
+
+{% hint style="info" %}
+to view qname\_unknown\_circle.bam
+
+`module load pgcgap` 
+
+`samtools view qname_unknown_circle.bam | less` 
+
+end 
+{% endhint %}
+
+
 
 `conda list` in the new env to check the version of python and biopython
 
@@ -390,10 +418,6 @@ gzip: hg38.fa already exists;	not overwritten
 `conda install -c bioconda samtools` to install `samtools` 
 
 `sbatch step1_circle-map.sh` again, JobID 61071
-
-
-
-
 
 
 
@@ -577,47 +601,7 @@ can't find unknown_circle.sam file.
 
 However, unknown\_circle.sam do exists. so, there is something wrong in the step3-script.
 
- 
-
-
-
-
-
-sbatch step3, 
-
-
-
- in `step3-python3-test` env
-
-`conda install -c bioconda circle-map` to install circle-map in env-2
-
-`conda install -c bioconda samtools`
-
-sbatch
-
-
-
-
-
-`vim step3_circle-map.sh` 
-
-```text
-#!/bin/sh
-#SBATCH -J step1
-#SBATCH -c 5
-#SBATCH -p normal
-
-# Step 3: Preparing the files for Circle-Map
-
-samtools sort -n -o qname_unknown_circle.bam unknown_circle.sam #有
-samtools sort -o sorted_unknown_circle.bam unknown_circle.sam #有
-Circle-Map ReadExtractor -i qname_unknown_circle.bam -o circular_read_candidates.bam #有   
-samtools sort -o sort_circular_read_candidates.bam circular_read_candidates.bam #有
-samtools index sort_circular_read_candidates.bam
-samtools index sorted_unknown_circle.bam
-```
-
-
+## restart-the error of al.. is solved.
 
 
 
@@ -633,8 +617,6 @@ samtools index sorted_unknown_circle.bam
 Circle-Map Realign -i sort_circular_read_candidates.bam -qbam qname_unknown_circle.bam -sbam sorted_unknown_circle.bam -fasta hg38.fa -o my_unknown_circle.bed
 
 ```
-
-先把4个步骤分开，然后再分别跑。然后再找出问题
 
 
 
