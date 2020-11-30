@@ -43,6 +43,10 @@
 > 记住：Use SLURM to run a job. Submit a job in a certain Conda env that contains every software you need.
 >
 > 初始阶段，多步骤分开跑，方便找出错误。比如circle map这里的第一步就错了，没有安装samtools, bwa
+>
+> 但是分开步骤，要知道每一个文件的原因，每一个步骤的原理。
+>
+> ⚠️  遇到错误，先看提示，然后再Google。多尝试，多了解。
 
 
 
