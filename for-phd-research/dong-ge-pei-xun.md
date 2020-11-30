@@ -547,7 +547,9 @@ in `step3-python2-test` env
 
 `conda install -c bioconda samtools`
 
-`conda install -c anaconda biopython` , sbatch failed.
+`conda install -c anaconda biopython` 
+
+**sbatch failed.**
 
 `conda unistall biopython` to remove biopython
 
@@ -555,7 +557,11 @@ in `step3-python2-test` env
 
 However, there is another error about samtools.
 
+`cd ~/miniconda3/envs/step3-python2-test/lib/` 
 
+`cp libcrypto.so.1.1 libcrypto.so.1.0.0` 
+
+stab
 
 
 
