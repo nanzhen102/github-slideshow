@@ -539,6 +539,12 @@ Try, test, run, try, test
 
 `conda create -n step3-python2-test`
 
+{% hint style="info" %}
+conda create -n name python=2
+
+毛毛师妹
+{% endhint %}
+
 `conda create -n step3-python3-test`
 
 in `step3-python2-test` env
