@@ -389,6 +389,8 @@ install `samtools`
 
 `conda install -c bioconda samtools` 
 
+`sbatch step1_circle-map.sh` again JobID 61071
+
 
 
 
