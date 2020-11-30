@@ -1,4 +1,4 @@
-# 4 SPAdes assembly-a phage genome-circle
+# 4. SPAdes assembly-a phage genome-circle
 
 细菌基因组拼接，毛+王，SPAdes噬菌体
 
@@ -346,11 +346,30 @@ in `spades` env
 
 `vim step1_circle-map.sh`
 
- 
+```text
+#!/bin/sh
+#SBATCH -J step1
+#SBATCH -c 5
+#SBATCH -p normal
+
+# Step 1: preparing and downloading the data
+
+# download the raw data
+wget https://raw.githubusercontent.com/iprada/Circle-Map/master/tutorial/unknown_circle_reads_1.fastq
+wget https://raw.githubusercontent.com/iprada/Circle-Map/master/tutorial/unknown_circle_reads_2.fastq
+
+# download the human genome reference, to map the reads back to the reference genome
+wget http://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/hg38.fa.gz
+
+# decompress the .gz file
+gunzip -d hg38.fa.gz
+
+# 
+```
 
 
 
-
+先把4个步骤分开，然后再分别跑。
 
 
 
