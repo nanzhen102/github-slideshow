@@ -525,6 +525,10 @@ in new env named `circle-map-python2`
 
 `conda install  -c montilab biopython=1.68` 
 
+`conda install -c bioconda samtools`
+
+`conda install -c bioconda circle-map`
+
 
 
 
