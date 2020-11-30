@@ -375,17 +375,46 @@ samtools faidx hg38.fa
 
 `vim step2_circle-map.sh` 
 
+```text
+#!/bin/sh
+#SBATCH -J step1
+#SBATCH -c 5
+#SBATCH -p normal
 
+# Step 2: Alignment of the reads to the reference genome
+bwa mem -q hg38.fa unknown_circle_reads_1.fastq unknown_circle_reads_2.fastq > unknown_circle.sam
 
-
+```
 
 `vim step3_circle-map.sh` 
 
+```text
+#!/bin/sh
+#SBATCH -J step1
+#SBATCH -c 5
+#SBATCH -p normal
 
+# Step 3: Preparing the files for Circle-Map
+samtools sort -n -o qname_unknown_circle.bam unknown_circle.sam
+samtools sort -o sorted_unknown_circle.bam unknown_circle.sam
+Circle-Map ReadExtractor -i qname_unknown_circle.bam -o circular_read_candidates.bam
+samtools sort -o sort_circular_read_candidates.bam circular_read_candidates.bam
+samtools index sort_circular_read_candidates.bam
+samtools index sorted_unknown_circle.bam
+```
 
 `vim step4_circle-map.sh`
 
+```text
+#!/bin/sh
+#SBATCH -J step1
+#SBATCH -c 5
+#SBATCH -p normal
 
+# Step 4: Detecting the circular DNA
+Circle-Map Realign -i sort_circular_read_candidates.bam -qbam qname_unknown_circle.bam -sbam sorted_unknown_circle.bam -fasta hg38.fa -o my_unknown_circle.bed
+
+```
 
 先把4个步骤分开，然后再分别跑。然后再找出问题
 
