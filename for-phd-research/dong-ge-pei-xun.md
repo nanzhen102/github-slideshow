@@ -346,6 +346,8 @@ in `spades` env
 
 `vim step1_circle-map.sh`
 
+`sbatch step1_circle-map.sh` JobID 61069
+
 ```text
 #!/bin/sh
 #SBATCH -J step1
