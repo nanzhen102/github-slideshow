@@ -383,7 +383,7 @@ gzip: hg38.fa already exists;	not overwritten
 
 install `bwa` 
 
-
+`conda install -c bioconda bwa` 
 
 install `samtools` 
 
