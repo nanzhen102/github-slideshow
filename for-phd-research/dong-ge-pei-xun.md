@@ -456,6 +456,10 @@ samtools index: failed to open "sort_circular_read_candidates.bam": No such file
 
 `conda install python=3.6.5` 
 {% endtab %}
+
+{% tab title="change python version" %}
+
+{% endtab %}
 {% endtabs %}
 
 `conda install python=3.6` 
