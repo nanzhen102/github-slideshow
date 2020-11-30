@@ -11,7 +11,7 @@
   * [3.2 Shell](afns566-coding-project/3.-virsorter2/shell-jiao-ben.md)
   * [3.3 For loop](afns566-coding-project/3.-virsorter2/3.-loops-for-while-and-until.md)
   * [3.4 Slurm](afns566-coding-project/3.-virsorter2/4.-slurm.md)
-* [4. Bin](afns566-coding-project/4.-bin/README.md)
+* [4. assembly + Bin](afns566-coding-project/4.-bin/README.md)
   * [4.1 perl script](afns566-coding-project/4.-bin/4.1-perl-script.md)
   * [4.2 shell script](afns566-coding-project/4.-bin/4.2-shell-script.md)
 * [5. CheckV](afns566-coding-project/5.-checkv.md)
