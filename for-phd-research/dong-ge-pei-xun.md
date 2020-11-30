@@ -374,6 +374,8 @@ samtools faidx hg38.fa
 ```
 
 ```text
+# error
+
 2020-11-30 13:04:05 (484 KB/s) - 已保存 “hg38.fa.gz.4” [983659424/983659424])
 
 gzip: hg38.fa already exists;	not overwritten
@@ -419,10 +421,11 @@ bwa mem -q hg38.fa unknown_circle_reads_1.fastq unknown_circle_reads_2.fastq > u
 #SBATCH -p normal
 
 # Step 3: Preparing the files for Circle-Map
-samtools sort -n -o qname_unknown_circle.bam unknown_circle.sam
-samtools sort -o sorted_unknown_circle.bam unknown_circle.sam
-Circle-Map ReadExtractor -i qname_unknown_circle.bam -o circular_read_candidates.bam
-samtools sort -o sort_circular_read_candidates.bam circular_read_candidates.bam
+
+samtools sort -n -o qname_unknown_circle.bam unknown_circle.sam #有
+samtools sort -o sorted_unknown_circle.bam unknown_circle.sam #有
+Circle-Map ReadExtractor -i qname_unknown_circle.bam -o circular_read_candidates.bam #有   
+samtools sort -o sort_circular_read_candidates.bam circular_read_candidates.bam #有
 samtools index sort_circular_read_candidates.bam
 samtools index sorted_unknown_circle.bam
 ```
@@ -430,6 +433,8 @@ samtools index sorted_unknown_circle.bam
 `sbatch step3_circle-map.sh` JobID61073
 
 ```text
+# error
+
 /var/spool/slurmd/job61073/slurm_script:行9: Circle-Map: 未找到命令
 [E::hts_open_format] Failed to open file circular_read_candidates.bam
 samtools sort: can't open "circular_read_candidates.bam": No such file or directory
