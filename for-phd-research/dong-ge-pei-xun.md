@@ -541,11 +541,15 @@ so run the step3 in two env, one is python2, the other is python3
 
 in `step3-python2-test` env
 
-`conda install -c bioconda circle-map` to install circle-map in env-1
+`conda install -c bioconda circle-map` 
 
 `conda install -c bioconda samtools`
 
-sbatch
+`conda install -c anaconda biopython` to install biopython of a new version 
+
+sbatch step3, 
+
+
 
  in `step3-python3-test` env
 
