@@ -334,7 +334,11 @@ Yangjie Li shared with me the solution
 
 **ONE HOUR LATER........**
 
-\*\*\*\*
+`sacct -j 61067`to  get statistics on completed jobs by jobID
+
+**Failed again.....but no slurm-job\#.out file**
+
+`sbatch` the job again, the job \# is  61068
 
 
 
