@@ -410,6 +410,10 @@ bwa mem -q hg38.fa unknown_circle_reads_1.fastq unknown_circle_reads_2.fastq > u
 
 ```
 
+`sbatch step2_circle-map.sh` JobID61072
+
+
+
 `vim step3_circle-map.sh` 
 
 ```text
@@ -426,6 +430,10 @@ samtools sort -o sort_circular_read_candidates.bam circular_read_candidates.bam
 samtools index sort_circular_read_candidates.bam
 samtools index sorted_unknown_circle.bam
 ```
+
+`sbatch step2_circle-map.sh` JobID61073
+
+
 
 `vim step4_circle-map.sh`
 
