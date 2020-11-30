@@ -561,7 +561,7 @@ However, there is another error about samtools.
 
 `cp libcrypto.so.1.1 libcrypto.so.1.0.0` 
 
-stab
+stabch again
 
 
 
