@@ -1,9 +1,3 @@
----
-description: >-
-  Use SLURM to run a job. Submit a job in a certain Conda env that contains
-  every software you need.
----
-
 # SPAdes assembly-a phage genome-circle
 
 细菌基因组拼接，毛+王，SPAdes噬菌体

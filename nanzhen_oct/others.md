@@ -39,6 +39,8 @@
 > 每个新知识新点的学习时间不要超过一周。
 >
 > 按一篇文章走完一遍，把图重复一下，比什么都强。
+>
+> 记住：Use SLURM to run a job. Submit a job in a certain Conda env that contains every software you need.
 
 
 
