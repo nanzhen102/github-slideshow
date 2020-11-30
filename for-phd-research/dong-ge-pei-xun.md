@@ -529,7 +529,27 @@ in new env named `circle-map-python2`
 
 `conda install -c bioconda circle-map`
 
+{% hint style="info" %}
+the same error happens again
 
+so run the step3 in to env, one is python2, the other is python3
+{% endhint %}
+
+conda create -n step3-python2-test
+
+conda create -n step3-python3-test
+
+conda activate step3-python2-test
+
+`conda install -c bioconda circle-map`
+
+conda deactivate
+
+conda activate step3-python3-test
+
+`conda install -c bioconda circle-map`
+
+conda deactivate
 
 
 
