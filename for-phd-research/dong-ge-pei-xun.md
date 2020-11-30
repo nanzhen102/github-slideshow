@@ -468,6 +468,14 @@ samtools index: failed to open "sort_circular_read_candidates.bam": No such file
 
 `sbatch step3_circle-map.sh` again, JobID61074
 
+> can't reinstall python 3.6
+>
+> so, `conda create -n circle-map` to recreate a new env named circle-map
+>
+> and reinstall software and packages
+
+`conda activate circle-map` 
+
 
 
 
