@@ -7,7 +7,7 @@ description: This step should be done before VirSorter2.
 {% hint style="info" %}
 run `module load Metagenomics/lxd` to use the metagenomic assembly software
 
-DO NOT need to reinstall software
+**DO NOT need to reinstall software.**
 {% endhint %}
 
 #### 4.1 Introduction
