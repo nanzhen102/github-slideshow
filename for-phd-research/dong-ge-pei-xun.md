@@ -364,7 +364,11 @@ wget http://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/hg38.fa.gz
 # decompress the .gz file
 gunzip -d hg38.fa.gz
 
-# 
+# bwq to create the index of the reference genome
+bwa index hg38.fa
+
+# samtools to create the circle-map index
+samtools faidx hg38.fa
 ```
 
 
