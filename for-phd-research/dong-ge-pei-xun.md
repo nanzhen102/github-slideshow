@@ -440,6 +440,16 @@ samtools index sorted_unknown_circle.bam
 samtools sort: can't open "circular_read_candidates.bam": No such file or directory
 [E::hts_open_format] Failed to open file sort_circular_read_candidates.bam
 samtools index: failed to open "sort_circular_read_candidates.bam": No such file or directory
+
+# this error is due to circular-map
+```
+
+```text
+# error
+
+AttributeError: 'int' object has no attribute 'is_integer'
+
+# this error is due to the python version - google
 ```
 
 `conda list` to check Circle-Map, no
