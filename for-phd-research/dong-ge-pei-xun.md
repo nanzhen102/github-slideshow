@@ -381,15 +381,11 @@ gzip: hg38.fa already exists;	not overwritten
 /var/spool/slurmd/job61069/slurm_script:行22: samtools: 未找到命令
 ```
 
-install `bwa` 
+`conda install -c bioconda bwa` to install `bwa` 
 
-`conda install -c bioconda bwa` 
+`conda install -c bioconda samtools` to install `samtools` 
 
-install `samtools` 
-
-`conda install -c bioconda samtools` 
-
-`sbatch step1_circle-map.sh` again JobID 61071
+`sbatch step1_circle-map.sh` again, JobID 61071
 
 
 
