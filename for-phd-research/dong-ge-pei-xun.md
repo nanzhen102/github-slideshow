@@ -441,6 +441,8 @@ samtools index: failed to open "sort_circular_read_candidates.bam": No such file
 
 `conda install python=2` to install python2
 
+`conda update -n base -c defaults conda` to update conda
+
 `conda install -c bioconda circle-map` to install Circle-Map
 
 
