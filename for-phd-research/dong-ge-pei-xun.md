@@ -539,17 +539,43 @@ conda create -n step3-python2-test
 
 conda create -n step3-python3-test
 
-conda activate step3-python2-test
+in `step3-python2-test` env
 
 `conda install -c bioconda circle-map` to install circle-map in env-1
 
-conda deactivate
+`conda install -c bioconda samtools`
 
-conda activate step3-python3-test
+sbatch
+
+ in `step3-python3-test` env
 
 `conda install -c bioconda circle-map` to install circle-map in env-2
 
-conda deactivate
+`conda install -c bioconda samtools`
+
+sbatch
+
+
+
+
+
+`vim step3_circle-map.sh` 
+
+```text
+#!/bin/sh
+#SBATCH -J step1
+#SBATCH -c 5
+#SBATCH -p normal
+
+# Step 3: Preparing the files for Circle-Map
+
+samtools sort -n -o qname_unknown_circle.bam unknown_circle.sam #有
+samtools sort -o sorted_unknown_circle.bam unknown_circle.sam #有
+Circle-Map ReadExtractor -i qname_unknown_circle.bam -o circular_read_candidates.bam #有   
+samtools sort -o sort_circular_read_candidates.bam circular_read_candidates.bam #有
+samtools index sort_circular_read_candidates.bam
+samtools index sorted_unknown_circle.bam
+```
 
 
 
