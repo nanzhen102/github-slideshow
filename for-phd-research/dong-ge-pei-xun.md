@@ -278,6 +278,8 @@ Circle-Map Realign -i sort_circular_read_candidates.bam -qbam qname_unknown_circ
 in an `slurm-job#.out` file,  
 
 ```text
+# error
+
 'ImportError: Bio.Alphabet has been removed from Biopython. In many cases, the alphabet can simply be ignored and removed from scripts. In a few cases, you may need to specify the ``molecule_type`` as an annotation on a SeqRecord for your script to work correctly. Please see https://biopython.org/wiki/Alphabet for more information.'
 Google the error, perhaps it is due to the biopython version, it should be 1.68 rather than 1.78.
 ```
@@ -480,13 +482,11 @@ AttributeError: 'int' object has no attribute 'is_integer'
 
 
 
-> still, can't reinstall python 3.6
+> still, can't reinstall python 3.6 and the same error exists
 >
 > so, `conda create -n circle-map` to recreate a new env named circle-map
 >
 > and reinstall all software and packages.
-
-
 
 `conda activate circle-map` 
 
@@ -497,6 +497,19 @@ AttributeError: 'int' object has no attribute 'is_integer'
 `conda install -c bioconda bwa`
 
 `conda install -c bioconda samtools`
+
+```text
+# error
+
+'ImportError: Bio.Alphabet has been removed from Biopython. In many cases, the alphabet can simply be ignored and removed from scripts. In a few cases, you may need to specify the ``molecule_type`` as an annotation on a SeqRecord for your script to work correctly. Please see https://biopython.org/wiki/Alphabet for more information.'
+
+# the error is due to the biopython version, it should be 1.68 rather than 1.78.
+
+```
+
+`conda install python=2` 
+
+`conda install -c montilab biopython=1.68` to install biopython1.68
 
 
 
