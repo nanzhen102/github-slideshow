@@ -480,13 +480,13 @@ AttributeError: 'int' object has no attribute 'is_integer'
 
 `sbatch step3_circle-map.sh` again, JobID61074
 
+{% hint style="info" %}
+sill, can't reinstall python 3.6 and the same error exists
 
+so, `conda create -n circle-map` to recreate a new env named `circle-map`
 
-> still, can't reinstall python 3.6 and the same error exists
->
-> so, `conda create -n circle-map` to recreate a new env named circle-map
->
-> and reinstall all software and packages.
+and reinstall all software and packages.
+{% endhint %}
 
 `conda activate circle-map` 
 
@@ -507,9 +507,25 @@ AttributeError: 'int' object has no attribute 'is_integer'
 
 ```
 
+{% hint style="info" %}
+~~`the same error happens again`~~
+
+and `conda install python=2`  failed.
+
+perhaps a new env should be created here.
+{% endhint %}
+
+`conda create -n circle-map-python2` 
+
+`conda activate circle-map-python2` 
+
+in new env named `circle-map-python2` 
+
 `conda install python=2` 
 
-`conda install -c montilab biopython=1.68` to install biopython1.68
+`conda install  -c montilab biopython=1.68` 
+
+
 
 
 
