@@ -427,7 +427,7 @@ samtools index sort_circular_read_candidates.bam
 samtools index sorted_unknown_circle.bam
 ```
 
-`sbatch step2_circle-map.sh` JobID61073
+`sbatch step3_circle-map.sh` JobID61073
 
 ```text
 /var/spool/slurmd/job61073/slurm_script:行9: Circle-Map: 未找到命令
@@ -444,6 +444,12 @@ samtools index: failed to open "sort_circular_read_candidates.bam": No such file
 `conda update -n base -c defaults conda` to update conda
 
 `conda install -c bioconda circle-map` to install Circle-Map
+
+`sbatch step3_circle-map.sh` again, JobID61074
+
+
+
+
 
 
 
