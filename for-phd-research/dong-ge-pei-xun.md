@@ -561,9 +561,17 @@ However, there is another error about samtools.
 
 `cp libcrypto.so.1.1 libcrypto.so.1.0.0` 
 
-stabch again
+**stabch failed**.
 
+```text
+# error
 
+can't find unknown_circle.sam file.
+```
+
+However, unknown\_circle.sam do exists. so, there is something wrong in the step3-script.
+
+ 
 
 
 
