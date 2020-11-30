@@ -476,9 +476,13 @@ samtools index: failed to open "sort_circular_read_candidates.bam": No such file
 
 `conda activate circle-map` 
 
+`conda install python=3.6.5` 
 
+`conda install -c bioconda circle-map` 
 
+`conda install -c bioconda bwa`
 
+`conda install -c bioconda samtools`
 
 
 
