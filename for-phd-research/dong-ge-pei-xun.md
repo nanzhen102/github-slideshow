@@ -532,7 +532,9 @@ in new env named `circle-map-python2`
 {% hint style="info" %}
 the same error happens again
 
-so run the step3 in two env, one is python2, the other is python3
+so run the step3 in two env, seperately. 
+
+Try, test, run, try, test
 {% endhint %}
 
 `conda create -n step3-python2-test`
