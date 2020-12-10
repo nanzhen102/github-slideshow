@@ -15,7 +15,6 @@
   * [4.1 perl script](afns566-coding-project/4.-bin/4.1-perl-script.md)
   * [4.2 shell script](afns566-coding-project/4.-bin/4.2-shell-script.md)
 * [5. CheckV](afns566-coding-project/5.-checkv.md)
-* [\(later...\)](afns566-coding-project/4.-crt.md)
 * [\*Notes](afns566-coding-project/notes.md)
 * [-](afns566-coding-project/academic-reading.md)
 
