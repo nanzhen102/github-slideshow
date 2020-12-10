@@ -1,7 +1,3 @@
----
-description: AFNS566 coding project & phd project
----
-
 # Protocol
 
 #### Date: **Dec** 10, 2020
