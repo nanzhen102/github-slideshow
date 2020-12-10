@@ -2,22 +2,6 @@
 
 * [Protocol](README.md)
 
-## for AFNS566 coding project <a id="afns566-coding-project"></a>
-
-* [1. Linux](afns566-coding-project/1.-linux.md)
-* [2. Conda](afns566-coding-project/2.-conda.md)
-* [3. VirSorter2](afns566-coding-project/3.-virsorter2/README.md)
-  * [3.1 Vim](afns566-coding-project/3.-virsorter2/vim.md)
-  * [3.2 Shell](afns566-coding-project/3.-virsorter2/shell-jiao-ben.md)
-  * [3.3 For loop](afns566-coding-project/3.-virsorter2/3.-loops-for-while-and-until.md)
-  * [3.4 Slurm](afns566-coding-project/3.-virsorter2/4.-slurm.md)
-* [4. assembly + Bin](afns566-coding-project/4.-bin/README.md)
-  * [4.1 perl script](afns566-coding-project/4.-bin/4.1-perl-script.md)
-  * [4.2 shell script](afns566-coding-project/4.-bin/4.2-shell-script.md)
-* [5. CheckV](afns566-coding-project/5.-checkv.md)
-* [\*Notes](afns566-coding-project/notes.md)
-* [-](afns566-coding-project/academic-reading.md)
-
 ## nanzhen's <a id="for-phd-research"></a>
 
 * [2. genomes download](for-phd-research/2.-genomes-download/README.md)
@@ -42,4 +26,20 @@
   * [previous\_virsorter2](nanzhen_oct/1.-coursera-course-biology-meets-programming/virsorter2.md)
   * [2. Biopython](nanzhen_oct/1.-coursera-course-biology-meets-programming/4.-bilibili-course-shu-ju-ke-shi-hua.md)
   * [2. Coursera course-Finding Hidden Messages in DNA \(Bioinformatics I\)](nanzhen_oct/1.-coursera-course-biology-meets-programming/1.-coursera-course-finding-hidden-messages-in-dna-bioinformatics-i.md)
+
+## nanzhen's 3 <a id="afns566-coding-project"></a>
+
+* [1. Linux](afns566-coding-project/1.-linux.md)
+* [2. Conda](afns566-coding-project/2.-conda.md)
+* [3. VirSorter2](afns566-coding-project/3.-virsorter2/README.md)
+  * [3.1 Vim](afns566-coding-project/3.-virsorter2/vim.md)
+  * [3.2 Shell](afns566-coding-project/3.-virsorter2/shell-jiao-ben.md)
+  * [3.3 For loop](afns566-coding-project/3.-virsorter2/3.-loops-for-while-and-until.md)
+  * [3.4 Slurm](afns566-coding-project/3.-virsorter2/4.-slurm.md)
+* [4. assembly + Bin](afns566-coding-project/4.-bin/README.md)
+  * [4.1 perl script](afns566-coding-project/4.-bin/4.1-perl-script.md)
+  * [4.2 shell script](afns566-coding-project/4.-bin/4.2-shell-script.md)
+* [5. CheckV](afns566-coding-project/5.-checkv.md)
+* [\*Notes](afns566-coding-project/notes.md)
+* [-](afns566-coding-project/academic-reading.md)
 
