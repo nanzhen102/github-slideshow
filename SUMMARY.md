@@ -17,11 +17,10 @@
 * [5. CheckV](afns566-coding-project/5.-checkv.md)
 * [\(later...\)](afns566-coding-project/4.-crt.md)
 * [\*Notes](afns566-coding-project/notes.md)
-* [Academic Reading](afns566-coding-project/academic-reading.md)
+* [-](afns566-coding-project/academic-reading.md)
 
 ## For phd project <a id="for-phd-research"></a>
 
-* [1. fasta file](for-phd-research/1.-fasta-file.md)
 * [2. genomes download](for-phd-research/2.-genomes-download/README.md)
   * [2.1 Bilibili course-parse website data](for-phd-research/2.-genomes-download/3.-bilibili-course.md)
   * [2.2 Youtube-HTTP requests to import data from the web](for-phd-research/2.-genomes-download/4.-youtube-http-requests-to-import-data-from-the-web.md)
