@@ -2,8 +2,6 @@
 
 #### Date: **Dec** 10, 2020
 
-#### Author: Nanzhen Qiao
-
 #### Status: Version 1.0
 
 #### Project: The analysis of prophage in pig gut microbiome 
