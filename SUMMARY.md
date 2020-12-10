@@ -19,7 +19,7 @@
 * [\*Notes](afns566-coding-project/notes.md)
 * [-](afns566-coding-project/academic-reading.md)
 
-## For phd project <a id="for-phd-research"></a>
+## nanzhen's <a id="for-phd-research"></a>
 
 * [2. genomes download](for-phd-research/2.-genomes-download/README.md)
   * [2.1 Bilibili course-parse website data](for-phd-research/2.-genomes-download/3.-bilibili-course.md)
@@ -28,7 +28,7 @@
 * [\*Notes](for-phd-research/python-error.md)
 * [4. SPAdes assembly-a phage genome-circle map](for-phd-research/dong-ge-pei-xun.md)
 
-## For nanzhen <a id="nanzhen_oct"></a>
+## nanzhen's 2 <a id="nanzhen_oct"></a>
 
 * [7. Holland Computing Center-bioinformatics tools](nanzhen_oct/7.-holland-computing-center-bioinformatics-tools.md)
 * [6. github-analysis of RNA-seq and ChIP-seq data](nanzhen_oct/6.-github-analysis-of-rna-seq-and-chip-seq-data.md)
