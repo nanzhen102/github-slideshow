@@ -1,5 +1,5 @@
 ---
-description: 'https://stepik.org/lesson/23142/step/2?unit=6782'
+description: 'ualberta.ca - https://stepik.org/lesson/23142/step/2?unit=6782'
 ---
 
 # 1. Coursera course-Biology meets Programming
